@@ -3,11 +3,9 @@ https://learn.unity.com/tutorial/0-1-set-up-unity-and-your-vr-device-1-1?uv=2020
 ## step 1 Setting up GitHub
 - 1
 - 2
-- 3
 ## step 2: Setting up Unity.
 - install Unity Hub
 - Apply for Unity Student here >> https://github.com/Eastern-Nazarene-Computer-Science/SummerVR2023/blob/main/setup/howToApplyForUnityStudent.md
-- 
+
 ## step 3 Setting up Occulus.
-- download the oculus application here
-https://www.oculus.com/download_app/?id=1582076955407037
+
