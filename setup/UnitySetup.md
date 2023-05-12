@@ -1,6 +1,6 @@
 # ||UNITY SETUP INSTRUCTIONS||
 
-1. Click the download link at store.unity.com/download-nuo
+1. Click the download link at store.unity.com/download-nuo 
 
 2. Agree to the "Terms of Service"
 
