@@ -8,6 +8,8 @@
 6. 
 7. Log into your Unity account on Unity Hub and install Unity
 8. Go to installs >> unity settings >> add modules
-9. Download "Andriod Build Support", "OpenJDK", and "Andriod SDK & NDK Tools"
-10. Visual Studio Installer:
-11. Check Unity box
+9. Download visual studio installer and "Andriod Build Support", "OpenJDK", and "Andriod SDK & NDK Tools
+10. accept terms and conditions
+11. Visual Studio Installer:
+13. scroll down and check Unity box
+14. sign in to visual studio with your ENC outlook account
