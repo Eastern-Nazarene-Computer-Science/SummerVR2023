@@ -10,4 +10,5 @@
 8. Go to installs >> unity settings >> add modules
 9. Download "Andriod Build Support", "OpenJDK", and "Andriod SDK & NDK Tools"
 10. Visual Studio Installer:
-11. Check Unity box
+10a. Check Unity box
+10b. Click install/download
