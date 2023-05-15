@@ -10,7 +10,7 @@ Fill out the form
 
 Once you submit the form you should get verified, and receive an email with your license key
 
-Open Unity Hub and go to profile >> manage lisences >> lisences >> add >> activate with serial number
+Open Unity Hub and go to profile >> manage licenses >> lisences >> add >> activate with serial number
 
 Enter your license key
 
