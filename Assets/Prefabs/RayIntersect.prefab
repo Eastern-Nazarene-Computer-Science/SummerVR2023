@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8729758025998440464}
   - component: {fileID: 8729758025998440467}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: RayIntersect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
