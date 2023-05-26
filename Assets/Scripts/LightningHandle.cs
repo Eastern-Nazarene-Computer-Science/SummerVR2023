@@ -10,17 +10,20 @@ public class LightningHandle : MonoBehaviour
     // lightningThree is a quick bright flash that is gone immediately
 
     public GameObject lightningSourceOne, lightningSourceTwo, lightningSourceThree, lightningSourceFour;
-    public AudioClip thunder;
+    public AudioClip thunderclap, thunderCrackle, thunderBoom;
     public AudioSource thunderSource;
 
-    private float lightFadeRate;
-    private float lightningOneFadeTime = 0.05f; // time to fade light level 
-    private float lightningTwoDuration = 0.125f; // duration of LightningTwo flash
+    //private float lightFadeRate;
+    //private float lightningOneFadeTime = 0.05f; // time to fade light level 
+    private float lightningTwoFlash = 0.125f; // time for initial flash
+    private float lightningTwoDuration = 0.025f; // duration of LightningTwo flashes
     private float lightningTwoGap = 0.125f; // time between flashes
     private float lightningThreeDuration = 0.125f; // duration of LightningThree flash
-    private float lightningBrightest = 10.0f; // the brightest the lightning will get
+    private float lightningBrightest = 1f; // the brightest the lightning will get
     private float lightBrightTarget = 0;
     private GameObject selectedLightning;
+    private float lightFreqMin = 3; // min time between strikes
+    private float lightFreqMax = 9; // max time between strikes
 
     private void Start()
     {
@@ -29,7 +32,7 @@ public class LightningHandle : MonoBehaviour
 
     void LightItUp()
     {
-        int lightningIndex = Random.Range(0, 4);
+        int lightningIndex = Random.Range(0,3);
 
         int _LI = Random.Range(0, 3);
 
@@ -48,90 +51,58 @@ public class LightningHandle : MonoBehaviour
                 selectedLightning = lightningSourceFour;
                 break;
         }
-
-        /*switch (lightningIndex)
+        
+        switch (lightningIndex) // BrS wanted lightning 3 to happen more than lightning 2 hence the double
         {
             case 0:
-                LightningOne();
-                break;
+                goto case 1;
             case 1:
-                LightningTwo();
-                break;
-            case 2:
                 LightningThree();
                 break;
+            case 2:
+                LightningTwo();
+                break;
             case 3:
-                LightningOneTwo();
                 break;
-            case 4:
-                //LightningThreeTwo();
-                break;
-            case 5:
-                break;
-        }*/
+        }
 
-        LightningThree();
-
-        float v = Random.Range(1, 8);
+        float v = Random.Range(lightFreqMin, lightFreqMax);
         Invoke("LightItUp", v);
-    }
-
-    void LightningOne() // bright flash then fade to off
-    {
-        selectedLightning.SetActive(true);
-        selectedLightning.GetComponent<Light>().intensity = lightningBrightest;
-        lightBrightTarget = 0;
-        lightFadeRate = 0.1f;
-        StartCoroutine("LightFade");
-        
     }
     
     void LightningTwo() // series of quick flashes
     {
         selectedLightning.GetComponent<Light>().intensity = lightningBrightest;
         LightsOn();
-        Invoke("LightsOut", lightningTwoDuration);
-        selectedLightning.GetComponent<Light>().intensity = lightningBrightest / 2;
-        Invoke("LightsOn", lightningTwoGap); 
-        Invoke("LightsOut", lightningTwoDuration);
-        Invoke("LightsOn", lightningTwoGap); 
-        Invoke("LightsOut", lightningTwoDuration);
-        Invoke("LightsOn", lightningTwoGap);
-        Invoke("LightsOut", lightningTwoDuration);
-    }
+        Invoke("LightsOut", lightningTwoFlash);
+        selectedLightning.GetComponent<Light>().intensity = lightningBrightest / 3;
+        SummonCrackleThunder();
+        StartCoroutine("Flicker");
 
-    void LightningOneTwo() // 
-    {
-
-        lightBrightTarget = lightningBrightest / 2;
-        LightFade();
-        lightBrightTarget = 0;
-        Invoke("LightIntensitySet", lightningTwoGap);
-        lightBrightTarget = lightningBrightest / 4 * 3;
-        Invoke("LightIntensitySet", lightningTwoDuration);
-        lightBrightTarget = 0;
-        Invoke("LightIntensitySet", lightningTwoGap);
-        lightBrightTarget = lightningBrightest / 4 * 3;
-        Invoke("LightIntensitySet", lightningTwoDuration);
-        lightBrightTarget = 0;
-        Invoke("LightIntensitySet", lightningTwoGap);
-        lightBrightTarget = lightningBrightest / 4 * 3;
-        Invoke("LightIntensitySet", lightningTwoDuration);
-        lightBrightTarget = 0;
-        StartCoroutine("LightFade");
     }
     
+    IEnumerator Flicker()
+    {
+        GameObject flop = selectedLightning;
+        flop.SetActive(true);
+        yield return new WaitForSeconds(lightningTwoDuration);
+        flop.SetActive(false);
+        yield return new WaitForSeconds(lightningTwoGap);
+        flop.SetActive(true);
+        yield return new WaitForSeconds(lightningTwoDuration);
+        flop.SetActive(false);
+        yield return new WaitForSeconds(lightningTwoGap);
+        flop.SetActive(true);
+        yield return new WaitForSeconds(lightningTwoDuration);
+        flop.SetActive(false);
+    }
+
     void LightningThree() // quick flash then off
     {
-        selectedLightning.SetActive(true);
+        LightsOn();
         selectedLightning.GetComponent<Light>().intensity = lightningBrightest;
         Invoke("LightsOut", lightningThreeDuration);
         SummonThunder();
-    }
-    
-    void LightsOut() // Deactivate selLight
-    {
-        selectedLightning.SetActive(false);
     }
 
     void LightIntensitySet()
@@ -144,7 +115,13 @@ public class LightningHandle : MonoBehaviour
         selectedLightning.SetActive(true);
     }
 
-    IEnumerator LightFade() // Constant fade for lightningOne
+    void LightsOut()
+    {
+        selectedLightning.SetActive(false);
+    }
+
+    //I don't know how to make this work and it isn't worth it to keep trying
+    /*IEnumerator LightFade() // Constant fade for lightningOne
     {
         GameObject _selLight = selectedLightning;
         float _lightIntensity = _selLight.GetComponent<Light>().intensity;
@@ -161,11 +138,23 @@ public class LightningHandle : MonoBehaviour
         }
         LightsOut();
 
-    }
+    }*/
 
     void SummonThunder()
     {
-        thunderSource.PlayOneShot(thunder);
+        float _K = Random.Range(0, 1);
+        if(_K > 0.5f)
+        {
+            thunderSource.PlayOneShot(thunderclap);
+        } else
+        {
+            thunderSource.PlayOneShot(thunderBoom);
+        }
+    }
+    
+    void SummonCrackleThunder()
+    {
+        thunderSource.PlayOneShot(thunderCrackle);
     }
 
 }
