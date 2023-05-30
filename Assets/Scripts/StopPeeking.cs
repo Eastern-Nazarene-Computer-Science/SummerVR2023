@@ -16,13 +16,11 @@ public class StopPeeking : MonoBehaviour
     {
         if(Physics.CheckSphere(gameObject.transform.position, headRadius, collisionLayer, QueryTriggerInteraction.Ignore))
         {
-            camBlock.SetActive(true);
             Debug.Log(camBlock.activeSelf);
         } else
         {
             if(camBlock.activeSelf == true)
             {
-                Debug.Log("off");
                 camBlock.SetActive(false);
             }
         }

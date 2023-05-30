@@ -4,22 +4,29 @@ using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
 [RequireComponent(typeof(Light))]
+[RequireComponent(typeof(FireFlicker))]
+
 public class FireLightable : MonoBehaviour
 {
     GameObject toLight; // the object being lit
     GameObject lighter; // the object doing the lighting
+    public GameObject flameObj; // the visual flame
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.GetComponent<FireLightable>()) // all lightable objects must contain this script
         {
-            Light lighterLighting = lighter.GetComponent<Light>();
             lighter = gameObject;
             toLight = other.gameObject;
             Light lightToLight = toLight.GetComponent<Light>();
+            Light lighterLighting = lighter.GetComponent<Light>();
+
             if (lighterLighting.intensity > 0 && lightToLight.intensity == 0)
             {
+                toLight.GetComponent<FireLightable>().flameObj.SetActive(true);
+                Debug.Log("inif");
                 lightToLight.intensity = lighterLighting.intensity; // whatever you are lighting will only be as bright as the object lighting it
+                toLight.GetComponent<FireFlicker>().currentIntense = lighter.GetComponent<FireFlicker>().currentIntense;
             }
         }
     }
