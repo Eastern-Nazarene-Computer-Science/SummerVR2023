@@ -9,12 +9,15 @@ public class MusicFlare : MonoBehaviour
     public AudioClip stingOne, stingTwo, stingThree, stingFour, stingFive;
     public float stingFreqMin, stingFreqMax; // how frequent stings are in sec
     public AudioSource thatOneGuy; // there's always one, sting source
+    public bool isMusicOn = true;
 
     private AudioClip[] sounds;
     private void Start()
     {
-        sounds = new AudioClip[]{ stingOne, stingTwo, stingThree, stingFour, stingFive };
-        CallSting();
+        if (isMusicOn) {
+            sounds = new AudioClip[]{ stingOne, stingTwo, stingThree, stingFour, stingFive };
+            CallSting();
+        }
     }
 
     void CallSting()
