@@ -9,3 +9,4 @@ flashlight model and scripts made by brendan
 temple model made by brendan
 hand stuff from xr interactive package
 background hills from unity create with vr tutorial
+sandstone bricks from polyhaven https://polyhaven.com/a/large_sandstone_blocks_01
