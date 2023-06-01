@@ -1,5 +1,16 @@
 1. Ensure you have Unity 2021.3.25f1 or latest LTS, Oculus software, and Github setup and make sure they are up-to-date
-2. Download and extract the file from https://connect-prd-cdn.unity.com/20220831/e04bb203-c0a3-4ae3-b1f3-28c32794581d/Create-with-VR_2021LTS.zip
-3. Put this folder in a logical location and change the name if you want
-4. In Unity Hub, click the arrow next to "Open" and select "add project from disk"
-5. Find and select the project file you extracted and confirm
+2. Import or create a new project using version 2021.3.25f1
+3. Once the project is open, go to Window > Package Manager
+4. Install XR Plugin Management, XR Interaction Toolkit, OpenXR Plugin, and Oculus XR Plugin
+5. Next, go to Edit > Project Settings and find XR Plug-in Management
+6. Check Oculus and let it install
+7. Uncheck Oculus and check OpenXR
+8. Click the Android icon and repeat steps 6 and 7
+9. Click OpenXR in the left panel(you may have to expand XR Plug-in Management)
+10. Click the Android icon
+11. Click the + button under Interaction Profiles and select Oculus Touch Controller Profile
+12. In your hierarchy, right click and go to XR > XR Origin (VR)
+13. Right click again and go to XR > XR Interaction Manager
+14. Check the boxes for Meta Quest Support and Runtime Debugger
+14. Delete the Main Camera object in your hierarchy
+15. Make sure your headset is connected in the Oculus app, then test your scene
