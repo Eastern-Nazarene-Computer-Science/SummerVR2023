@@ -1,0 +1,12 @@
+low-back-1 and rattle sounds are from public domain sound samples mixed by Brendan
+rain sound is from Pixabay https://pixabay.com/sound-effects/rain-loop-unfiltered-17580/
+thunder sound is from 99sounds https://99sounds.org/rain-and-thunder/
+key model made by ben 
+tree model made by ben
+ground model and texture made by assol
+sky texture from avionx https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633
+flashlight model and scripts made by brendan
+temple model made by brendan
+hand stuff from xr interactive package
+background hills from unity create with vr tutorial
+sandstone bricks from polyhaven https://polyhaven.com/a/large_sandstone_blocks_01
