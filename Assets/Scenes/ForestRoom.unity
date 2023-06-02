@@ -288,22 +288,22 @@ PrefabInstance:
     - target: {fileID: 2647898422681595148, guid: cbc72467084a1f44ab5e498a915ca432,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 14.665145
+      value: 107.038925
       objectReference: {fileID: 0}
     - target: {fileID: 2647898422681595148, guid: cbc72467084a1f44ab5e498a915ca432,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.7895
+      value: -8.78955
       objectReference: {fileID: 0}
     - target: {fileID: 2647898422681595148, guid: cbc72467084a1f44ab5e498a915ca432,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7787
+      value: 1.1422
       objectReference: {fileID: 0}
     - target: {fileID: 2647898422681595148, guid: cbc72467084a1f44ab5e498a915ca432,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0002
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2647898422681595148, guid: cbc72467084a1f44ab5e498a915ca432,
         type: 3}
@@ -386,6 +386,7 @@ MonoBehaviour:
   stingFreqMin: 3
   stingFreqMax: 10
   thatOneGuy: {fileID: 64179930}
+  isMusicOn: 1
 --- !u!82 &64179930
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9553,7 +9554,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spotLight: {fileID: 1955308520}
-  lightLens: {fileID: 2100000, guid: 04941ca2907d4be45b720ae640501184, type: 2}
+  lightMatEmis: {fileID: 0}
+  lightIntens: 1
+  flameObj: {fileID: 0}
 --- !u!136 &1606705961
 CapsuleCollider:
   m_ObjectHideFlags: 0
