@@ -42,7 +42,7 @@ public class LightSwitch : MonoBehaviour
             }
 
         }
-        spotLight.intensity = (spotLight.intensity == 0) ? lightIntens : 0; // if intensity is 0, it equals lightIntens, else equals 0
+        //spotLight.intensity = (spotLight.intensity == 0) ? lightIntens : 0; // if intensity is 0, it equals lightIntens, else equals 0
         lightMatEmis.SetKeyword(_v, !lightMatEmis.IsKeywordEnabled("_EMISSION")); // set _v to whatever it is not
     }
 

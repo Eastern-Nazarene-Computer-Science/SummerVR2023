@@ -5,9 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwapper : MonoBehaviour
 {
-    public Scene nextRoom;
-    void LoadRoom(Scene toLoad)
+    public string targetRoom;
+    private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(nameof(toLoad));
+        Debug.Log("trigger active");
+        LoadRoom(targetRoom);
+    }
+    void LoadRoom(string toLoad)
+    {
+        SceneManager.LoadScene(toLoad);
     }
 }
