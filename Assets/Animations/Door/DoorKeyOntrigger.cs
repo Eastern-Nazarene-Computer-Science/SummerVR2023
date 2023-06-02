@@ -26,8 +26,8 @@ public class DoorKeyOntrigger : MonoBehaviour
     {
         //if (other.gameObject.name == "decimated_key2")
         //{
-            DoorAnimations.SetInteger("stateChange", 2);
-            Debug.Log("stateChange 2");
+            DoorAnimations.SetInteger("stateChange", 1);
+            Debug.Log("stateChange 1");
         //}
         //else
         //{
