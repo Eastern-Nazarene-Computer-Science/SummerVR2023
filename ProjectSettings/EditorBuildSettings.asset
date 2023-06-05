@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ForestRoom.unity
     guid: 40379542a047b4cc6be78b5b9df15d1f
   - enabled: 1
-    path: Assets/Scenes/Sample-Scene.unity
+    path: Assets/Scenes/Room2(Book).unity
     guid: c2ae39aed1686f245b30d6fa71e01c4d
   - enabled: 0
     path: Assets/Scenes/Create-with-VR-Starter-Scene.unity
