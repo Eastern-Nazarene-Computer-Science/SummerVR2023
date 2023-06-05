@@ -1683,14 +1683,8 @@ PrefabInstance:
     - target: {fileID: 4521072878925696133, guid: f8fee7469091e01479022258ca8419f3,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8401031307812964662, guid: f8fee7469091e01479022258ca8419f3,
-        type: 3}
-      propertyPath: m_CustomReticle
-      value: 
-      objectReference: {fileID: 3521457681945940986, guid: 493691fe396bc5c40900e8a234c5c60e,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8fee7469091e01479022258ca8419f3, type: 3}
 --- !u!1001 &1054714442
