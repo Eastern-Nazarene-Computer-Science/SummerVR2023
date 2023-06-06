@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2209834966059019574}
   - component: {fileID: 2209834966059019576}
   - component: {fileID: 2209834966059019577}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 2209834966076630819}
   - component: {fileID: 2209834966076630821}
   - component: {fileID: 2209834966076630818}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 2209834966169015785}
   - component: {fileID: 2209834966169015782}
   - component: {fileID: 2209834966169015783}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Flashlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +485,7 @@ GameObject:
   - component: {fileID: 2209834966250040157}
   - component: {fileID: 2209834966250040159}
   - component: {fileID: 2209834966250040156}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -568,7 +568,7 @@ GameObject:
   - component: {fileID: 2209834966277362095}
   - component: {fileID: 2209834966277362097}
   - component: {fileID: 2209834966277362094}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -651,7 +651,7 @@ GameObject:
   - component: {fileID: 2209834966303374407}
   - component: {fileID: 2209834966303374409}
   - component: {fileID: 2209834966303374406}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Switch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -734,7 +734,7 @@ GameObject:
   - component: {fileID: 2209834966333052739}
   - component: {fileID: 2209834966333052741}
   - component: {fileID: 2209834966333052738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -817,7 +817,7 @@ GameObject:
   - component: {fileID: 2209834966411429028}
   - component: {fileID: 2209834966411429030}
   - component: {fileID: 2209834966411429031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Switch housing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -900,7 +900,7 @@ GameObject:
   - component: {fileID: 2209834966485257681}
   - component: {fileID: 2209834966485257683}
   - component: {fileID: 2209834966485257680}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -983,7 +983,7 @@ GameObject:
   - component: {fileID: 2209834966558315816}
   - component: {fileID: 2209834966558315817}
   - component: {fileID: 2209834966558315814}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spotlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1099,7 +1099,7 @@ GameObject:
   - component: {fileID: 2209834966860177184}
   - component: {fileID: 2209834966860177185}
   - component: {fileID: 2209834966860177182}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lens
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1194,7 +1194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2209834967061776807}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1239,7 +1239,7 @@ GameObject:
   - component: {fileID: 2209834967191348548}
   - component: {fileID: 2209834967191348550}
   - component: {fileID: 2209834967191348551}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1323,7 +1323,7 @@ GameObject:
   - component: {fileID: 2209834967355636838}
   - component: {fileID: 2209834967355636839}
   - component: {fileID: 2209834967355636836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1420,7 +1420,7 @@ GameObject:
   - component: {fileID: 2209834967520876449}
   - component: {fileID: 2209834967520876451}
   - component: {fileID: 2209834967520876448}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1503,7 +1503,7 @@ GameObject:
   - component: {fileID: 2209834967621065670}
   - component: {fileID: 2209834967621065672}
   - component: {fileID: 2209834967621065673}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1584,7 +1584,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2209834967667424637}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1619,7 +1619,7 @@ GameObject:
   - component: {fileID: 2209834967672304598}
   - component: {fileID: 2209834967672304600}
   - component: {fileID: 2209834967672304601}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1702,7 +1702,7 @@ GameObject:
   - component: {fileID: 2209834967749407799}
   - component: {fileID: 2209834967749407801}
   - component: {fileID: 2209834967749407798}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1785,7 +1785,7 @@ GameObject:
   - component: {fileID: 2209834967862422450}
   - component: {fileID: 2209834967862422452}
   - component: {fileID: 2209834967862422453}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
