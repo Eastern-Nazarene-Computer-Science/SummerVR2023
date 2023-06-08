@@ -7,7 +7,7 @@ public class StopPeeking : MonoBehaviour
     public GameObject camBlock;
     private float headRadius = 0.025f;
     private SphereCollider headColl;
-    [SerializeField]private LayerMask collisionLayer;
+    [SerializeField] private LayerMask collisionLayer;
     private void Start()
     {
         headColl = gameObject.GetComponent<SphereCollider>();
