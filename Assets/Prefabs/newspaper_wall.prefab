@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7151573206200364897}
   - component: {fileID: 6314783383114801439}
   - component: {fileID: 3700267823736316555}
+  - component: {fileID: 3469287838587093944}
   m_Layer: 7
   m_Name: newspaper_wall
   m_TagString: Untagged
@@ -30,9 +31,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6120548673864952118}
-  m_LocalRotation: {x: 0.7042827, y: -0.7042827, z: -0.06313385, w: 0.06313385}
+  m_LocalRotation: {x: 0.7042827, y: -0.7042827, z: -0.06313433, w: 0.06313433}
   m_LocalPosition: {x: 8.690198, y: 1.9519285, z: 12.885713}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 50, y: 50, z: 50}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -66,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6697260869797524645, guid: 864c875821e2c4aad996254481ddaf0c, type: 3}
+  - {fileID: 2100000, guid: 812cc2b8f5a734feaa2dba425a292cdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -96,7 +97,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6120548673864952118}
   serializedVersion: 2
-  m_Mass: 0.1
+  m_Mass: 1
   m_Drag: 1
   m_AngularDrag: 0.05
   m_UseGravity: 0
@@ -171,9 +172,21 @@ MonoBehaviour:
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3700267823736316555}
+      - m_Target: {fileID: 3469287838587093944}
         m_TargetAssemblyTypeName: Newspaperfall, Assembly-CSharp
         m_MethodName: NewspaperFallFunction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: NewspaperToSocket, Assembly-CSharp
+        m_MethodName: CheckForPapers
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -241,6 +254,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &3700267823736316555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6120548673864952118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 585541bf871514e53b11f0c671b43d12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3469287838587093944
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

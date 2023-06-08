@@ -18,7 +18,7 @@ public class NewspaperToSocket : MonoBehaviour
         otherpapers = new Rigidbody[] { otherpaper1, otherpaper2, otherpaper3, otherpaper4, otherpaper5, otherpaper6 };
     }
 
-    private void FixedUpdate()
+    public void CheckForPapers()
     {
         if(news1RB.useGravity && news2RB.useGravity && news3RB.useGravity) // if all three have gravity activated
         {
