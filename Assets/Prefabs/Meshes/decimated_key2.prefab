@@ -512,6 +512,7 @@ GameObject:
   - component: {fileID: 8174953871030571160}
   - component: {fileID: 5578266352722224892}
   - component: {fileID: 7074109297632724668}
+  - component: {fileID: 8812787658626649462}
   m_Layer: 0
   m_Name: decimated_key2
   m_TagString: Untagged
@@ -741,6 +742,19 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!65 &8812787658626649462
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7670678324654698829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0061100665, y: 0.0021581275, z: 0.00039979463}
+  m_Center: {x: -0.0007863956, y: 0.0011006375, z: 0.00023673038}
 --- !u!1 &8936929909571396755
 GameObject:
   m_ObjectHideFlags: 0
