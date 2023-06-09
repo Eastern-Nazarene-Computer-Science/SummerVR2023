@@ -328,6 +328,221 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 8635811134941098801}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_DefaultParameters.m_EaseInTime
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_DefaultParameters.m_EaseOutTime
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_DefaultParameters.m_EaseOutDelayTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_DefaultParameters.m_VignetteColorBlend.a
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[3].m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[4].m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[5].m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[0].m_LocomotionProvider
+      value: 
+      objectReference: {fileID: 500118158272176296}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[1].m_LocomotionProvider
+      value: 
+      objectReference: {fileID: 500118159398574930}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[2].m_LocomotionProvider
+      value: 
+      objectReference: {fileID: 500118158272176302}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[3].m_LocomotionProvider
+      value: 
+      objectReference: {fileID: 500118159398574931}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[4].m_LocomotionProvider
+      value: 
+      objectReference: {fileID: 1785221869381077264}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[5].m_LocomotionProvider
+      value: 
+      objectReference: {fileID: 1645755041547163622}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[2].m_OverrideDefaultParameters
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[3].m_OverrideDefaultParameters
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[4].m_OverrideDefaultParameters
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[5].m_OverrideDefaultParameters
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[2].m_OverrideParameters.m_EaseInTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[3].m_OverrideParameters.m_EaseInTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[4].m_OverrideParameters.m_EaseInTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[5].m_OverrideParameters.m_EaseInTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[2].m_OverrideParameters.m_EaseOutTime
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[3].m_OverrideParameters.m_EaseOutTime
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[4].m_OverrideParameters.m_EaseOutTime
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[5].m_OverrideParameters.m_EaseOutTime
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[2].m_OverrideParameters.m_ApertureSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[4].m_OverrideParameters.m_ApertureSize
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[5].m_OverrideParameters.m_ApertureSize
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[3].m_OverrideParameters.m_VignetteColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[4].m_OverrideParameters.m_VignetteColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[5].m_OverrideParameters.m_VignetteColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[2].m_OverrideParameters.m_EaseOutDelayTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[3].m_OverrideParameters.m_EaseOutDelayTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[3].m_OverrideParameters.m_FeatheringEffect
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[4].m_OverrideParameters.m_EaseOutDelayTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[4].m_OverrideParameters.m_FeatheringEffect
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[5].m_OverrideParameters.m_EaseOutDelayTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[5].m_OverrideParameters.m_FeatheringEffect
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[2].m_OverrideParameters.m_VignetteColorBlend.a
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[3].m_OverrideParameters.m_VignetteColorBlend.a
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[4].m_OverrideParameters.m_VignetteColorBlend.a
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346173786185671716, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_LocomotionVignetteProviders.Array.data[5].m_OverrideParameters.m_VignetteColorBlend.a
+      value: 0.9019608
+      objectReference: {fileID: 0}
     - target: {fileID: 4572677340956178370, guid: f69d63ae956b28a45b030ea9bfebbdfd,
         type: 3}
       propertyPath: m_InteractionManager
@@ -368,8 +583,100 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 8635811134941098801}
+    - target: {fileID: 5237116448709145747, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_DelayTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237116449730613102, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_DelayTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240685810012069165, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_DelayTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380433010157339611, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+        type: 3}
+      propertyPath: m_DelayTime
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f69d63ae956b28a45b030ea9bfebbdfd, type: 3}
+--- !u!114 &500118158272176296 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5237116448709145749, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 5646739297070535741}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf296fc962d7184ab14ad1841598d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &500118158272176302 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5237116448709145747, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 5646739297070535741}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &500118159398574930 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5237116449730613103, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 5646739297070535741}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf296fc962d7184ab14ad1841598d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &500118159398574931 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5237116449730613102, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 5646739297070535741}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1645755041547163622 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6380433010157339611, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 5646739297070535741}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1785221869381077264 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6240685810012069165, guid: f69d63ae956b28a45b030ea9bfebbdfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 5646739297070535741}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8635811135028649061 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4144911447129720920, guid: f69d63ae956b28a45b030ea9bfebbdfd,
