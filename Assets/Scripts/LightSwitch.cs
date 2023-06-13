@@ -19,6 +19,12 @@ public class LightSwitch : MonoBehaviour
         LightOff();
     }
 
+    private void OnDestroy()
+    {
+        LocalKeyword _v = lightMatEmis.shader.keywordSpace.FindKeyword("_EMISSION"); // this is dumb
+        lightMatEmis.SetKeyword(_v, true); // set _v to whatever it is not
+    }
+
     public void LightToggle()
     {
         LocalKeyword _v = lightMatEmis.shader.keywordSpace.FindKeyword("_EMISSION"); // this is dumb
@@ -30,7 +36,6 @@ public class LightSwitch : MonoBehaviour
                 gameObject.GetComponentInChildren<FireFlicker>().currentIntense = gameObject.GetComponentInChildren<FireFlicker>().standardIntense;
                 flameObj.SetActive(!flameObj.activeSelf);
             }
-            
         }
         else // if its on then turn off
         {
@@ -40,7 +45,6 @@ public class LightSwitch : MonoBehaviour
                 gameObject.GetComponentInChildren<FireFlicker>().currentIntense = 0;
                 flameObj.SetActive(!flameObj.activeSelf);
             }
-
         }
         //spotLight.intensity = (spotLight.intensity == 0) ? lightIntens : 0; // if intensity is 0, it equals lightIntens, else equals 0
         lightMatEmis.SetKeyword(_v, !lightMatEmis.IsKeywordEnabled("_EMISSION")); // set _v to whatever it is not
@@ -54,7 +58,6 @@ public class LightSwitch : MonoBehaviour
         {
             flameObj.SetActive(false);
             gameObject.GetComponentInChildren<FireFlicker>().currentIntense = 0;
-
         }
     }
     public void LightOn()

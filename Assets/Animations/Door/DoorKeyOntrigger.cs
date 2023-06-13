@@ -20,6 +20,8 @@ public class DoorKeyOntrigger : MonoBehaviour
         //{
         //    DoorAnimations.SetInteger("stateChange", 0);
         //}
+        gameObject.GetComponent<XRSocketInteractor>().socketActive = false;
+        OnSelectExit(); // calling this to drop the key after door opens
     }
 
     public void OnSelectExit()
