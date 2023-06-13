@@ -1,0 +1,11 @@
+Model Information:
+* title:	BAT
+* source:	https://sketchfab.com/3d-models/bat-ca6d6be9256840c780813835b30ba6be
+* author:	sevketkabatas (https://sketchfab.com/sevketkabatas6153)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "BAT" (https://sketchfab.com/3d-models/bat-ca6d6be9256840c780813835b30ba6be) by sevketkabatas (https://sketchfab.com/sevketkabatas6153) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
