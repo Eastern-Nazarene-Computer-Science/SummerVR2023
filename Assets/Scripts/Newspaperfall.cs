@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Newspaperfall : MonoBehaviour
 {
-    private Rigidbody rb;
-
-    private void Start()
+    public void NewspaperFallFunction()
     {
-        rb = GetComponent<Rigidbody>();
-    }
-
-    private void OnMouseDown()
-    { 
-        rb.useGravity = true;
+        Debug.Log("words");
+        Rigidbody thisRB = gameObject.GetComponent<Rigidbody>();
+        Debug.Log(thisRB.constraints);
+        thisRB.constraints = RigidbodyConstraints.None;
+        thisRB.useGravity = true;
+    
     }
 }
