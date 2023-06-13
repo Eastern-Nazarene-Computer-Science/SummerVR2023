@@ -242,7 +242,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_InteractionManager
       value: 
-<<<<<<< HEAD
       objectReference: {fileID: 4763085286836561808}
     - target: {fileID: 1826306896767615371, guid: f69d63ae956b28a45b030ea9bfebbdfd,
         type: 3}
@@ -310,10 +309,6 @@ PrefabInstance:
       value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 6744171333814253300, guid: f69d63ae956b28a45b030ea9bfebbdfd,
-=======
-      objectReference: {fileID: 8635811134941098801}
-    - target: {fileID: 4144911447129720920, guid: f69d63ae956b28a45b030ea9bfebbdfd,
->>>>>>> main
         type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -387,7 +382,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_InteractionManager
       value: 
-<<<<<<< HEAD
       objectReference: {fileID: 4763085286836561808}
     - target: {fileID: 7717830536894756571, guid: f69d63ae956b28a45b030ea9bfebbdfd,
         type: 3}
@@ -395,10 +389,6 @@ PrefabInstance:
       value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 8438646577071122916, guid: f69d63ae956b28a45b030ea9bfebbdfd,
-=======
-      objectReference: {fileID: 8635811134941098801}
-    - target: {fileID: 4144911447811116424, guid: f69d63ae956b28a45b030ea9bfebbdfd,
->>>>>>> main
         type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -763,7 +753,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5646739297070535741}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!114 &5804759030747029113 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4932343165656852059, guid: f69d63ae956b28a45b030ea9bfebbdfd,
@@ -931,5 +920,3 @@ PrefabInstance:
       objectReference: {fileID: 6823776858243667849}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee47d255efa08d444bcd3a7bc9aefe21, type: 3}
-=======
->>>>>>> main
