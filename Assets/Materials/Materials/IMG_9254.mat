@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD:Assets/Materials/Texture/Materials/IMG_9254.mat
+--- !u!114 &-9190261314367236483
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+=======
+>>>>>>> main:Assets/Materials/Materials/IMG_9254.mat
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -22,7 +38,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
+<<<<<<< HEAD:Assets/Materials/Texture/Materials/IMG_9254.mat
+        m_Texture: {fileID: 2800000, guid: d916942718a73bd4397e867f127800ce, type: 3}
+=======
         m_Texture: {fileID: 2800000, guid: b10f4d1daaba49a41a0b3d9153f18ad3, type: 3}
+>>>>>>> main:Assets/Materials/Materials/IMG_9254.mat
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -46,7 +66,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+<<<<<<< HEAD:Assets/Materials/Texture/Materials/IMG_9254.mat
+        m_Texture: {fileID: 2800000, guid: d916942718a73bd4397e867f127800ce, type: 3}
+=======
         m_Texture: {fileID: 2800000, guid: b10f4d1daaba49a41a0b3d9153f18ad3, type: 3}
+>>>>>>> main:Assets/Materials/Materials/IMG_9254.mat
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -111,6 +135,8 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
+<<<<<<< HEAD:Assets/Materials/Texture/Materials/IMG_9254.mat
+=======
 --- !u!114 &7391162002342636750
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -124,3 +150,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 5
+>>>>>>> main:Assets/Materials/Materials/IMG_9254.mat
