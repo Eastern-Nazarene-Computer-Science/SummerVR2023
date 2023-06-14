@@ -5195,6 +5195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flameObj: {fileID: 601800595}
+  torchtip: {fileID: 0}
 --- !u!4 &161835172
 Transform:
   m_ObjectHideFlags: 0
@@ -8998,7 +8999,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 0ca557c6a65eb91448a21b442f6cde44,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ca557c6a65eb91448a21b442f6cde44, type: 3}
