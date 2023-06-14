@@ -12,11 +12,12 @@ public class torchOut : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         rain = gameObject;
-        torch = other.gameObject;
+        torchtip = other.gameObject;
         if (torch.GetComponent<FireLightable>().flameObj.activeSelf == true)
         {
-            torch.GetComponent< FireLightable > ().flameObj.SetActive(false);
-            Light torch = torch.GetComponent<light>();
+            other.GetComponent< FireLightable > ().flameObj.SetActive(false);
+            Light torchtip = other.GetComponent<Light>();
+            torchtip.intensity = 0;
 
         }
     }
