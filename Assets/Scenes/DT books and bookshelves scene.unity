@@ -5050,6 +5050,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b282d995c1d4267499b11176cc0b7b18, type: 3}
+--- !u!95 &368015291 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3480162441363070981, guid: b282d995c1d4267499b11176cc0b7b18,
+    type: 3}
+  m_PrefabInstance: {fileID: 368015290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &370145678
 GameObject:
   m_ObjectHideFlags: 0
@@ -8655,6 +8661,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47bbdbd4f95e76b4e95dbeaebdf47772, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  socketObjects: []
+  door: {fileID: 626745608}
+  desiredPattern: []
+  DoorAnimations: {fileID: 368015291}
 --- !u!1 &632808736
 GameObject:
   m_ObjectHideFlags: 0
@@ -16926,12 +16936,12 @@ PrefabInstance:
     - target: {fileID: 8171949988780050567, guid: e64b9ed5e1fcc404b8af4c30af70c735,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.02
+      value: 0.79
       objectReference: {fileID: 0}
     - target: {fileID: 8171949988780050567, guid: e64b9ed5e1fcc404b8af4c30af70c735,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.33
+      value: 0.71
       objectReference: {fileID: 0}
     - target: {fileID: 8171949988780050567, guid: e64b9ed5e1fcc404b8af4c30af70c735,
         type: 3}
