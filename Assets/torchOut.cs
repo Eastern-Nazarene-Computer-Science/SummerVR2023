@@ -16,6 +16,7 @@ public class torchOut : MonoBehaviour
         if (torch.GetComponent<FireLightable>().flameObj.activeSelf == true)
         {
             torch.GetComponent< FireLightable > ().flameObj.SetActive(false);
+            Light torch = torch.GetComponent<light>();
 
         }
     }
