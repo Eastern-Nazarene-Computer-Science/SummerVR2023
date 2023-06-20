@@ -357,6 +357,7 @@ GameObject:
   - component: {fileID: 52943567}
   - component: {fileID: 52943569}
   - component: {fileID: 52943568}
+  - component: {fileID: 52943570}
   m_Layer: 4
   m_Name: Rain(Particle System)
   m_TagString: Untagged
@@ -372,8 +373,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52943566}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 3, z: 3.34}
-  m_LocalScale: {x: 0.036807243, y: 0.023891749, z: 0.107808664}
+  m_LocalPosition: {x: 0, y: 1.159, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 161835172}
@@ -5158,6 +5159,20 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &52943570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52943566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb87b75d91c991e4bbad6c784c2b0ed8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flameObj: {fileID: 601800595}
+  torchtip: {fileID: 1442156174}
 --- !u!4 &68965633 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5650937177665581299, guid: 2ecee93142b6f2248b611f198ce295cb,
