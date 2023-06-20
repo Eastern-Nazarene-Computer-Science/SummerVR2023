@@ -23,7 +23,10 @@ public class RockBash : MonoBehaviour
         if (collision.gameObject == Dwayne && CheckVelocity() == true)
         {
             Debug.Log("commence the bashing");
-            skullToBash.GetComponent<Rigidbody>().useGravity = true; // assuming this is what we want idk
+            Rigidbody skullRB = skullToBash.GetComponent<Rigidbody>();
+            skullRB.constraints = RigidbodyConstraints.None;
+            skullRB.useGravity = true; // assuming this is what we want idk
+            skullToBash.GetComponentInChildren<SphereCollider>().enabled = true;
         }
     }
 }

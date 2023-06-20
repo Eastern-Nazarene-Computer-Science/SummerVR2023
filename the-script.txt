@@ -1,0 +1,85 @@
+INTRO
+I stood in my grandfather's study, surrounded by the scent of old books and memories that clung to the air. The room was filled with antique furniture, ancient artifacts, and shelves lined with leather-bound tomes. It had been a week since his passing, and the weight of his absence still hung heavily upon my heart.
+As the executor of his will, I had spent days sorting through his belongings, attempting to piece together the remaining fragments of his extraordinary life. But it wasn't until now that I discovered a small, intricately designed box tucked away in a hidden compartment of his desk.
+Curiosity piqued, I gently lifted the lid to reveal a faded letter and an ornate key nestled within a bed of velvet. The sight of these treasures ignited a mix of curiousity and apprehension within me. With trembling hands, I unfolded the aged parchment and began to read my grandfather's words.
+"My dearest grandchild,
+If you are reading this, it means that my time in this world has come to an end. But fear not, for I have left you with a gift—a journey that will take you to the very edges of exploration and mystery. Inside this box lies a key that will unlock a door to a temple hidden in a remote part of the world."
+His words sent a shiver down my spine, and a sense of adventure welled up within me. I could almost hear his voice, urging me to embark on this grand quest. The letter continued, guiding me through the process of discovering the temple's location and providing cryptic clues to aid my journey.
+With each word, my connection to my grandfather deepened. I felt his presence, guiding me from beyond the veil of life. It was as if he had designed this puzzle, knowing I would be the one to unlock its secrets.
+Determined to honor his legacy and uncover the truth that lay hidden, I packed my bags and embarked on a journey that would take me to the farthest corners of the world. 
+
+SCENE ONE ENTER
+Guided by my grandfather's clues, I traversed dense jungles, treacherous mountains, and crossed desolate deserts.
+Finally, after days of relentless pursuit, I stood before an ancient, overgrown temple nestled amidst the mist-shrouded peaks of a forgotten mountain range. 
+SCENE ONE HINT ONE
+I need to grab my things. They should be around here somewhere.
+SCENE ONE HINT TWO
+There has to be a keyhole somewhere. I better look for a door.
+SCENE ONE HINT THREE
+This door has to have a keyhole. Maybe its blocked by something.
+
+SCENE ONE OPEN DOOR
+The key, warm in my palm, felt like a tangible connection to my past. With a trembling hand, I inserted the key into the temple's massive door.
+As I turned the key, a sense of anticipation washed over me. The door rumbled open, revealing a world untouched by time. I stepped inside, feeling a surge of awe and reverence. The air was thick with ancient whispers and the weight of history. It was a place where stories came alive.
+SCENE TWO HINT ONE
+This place is a mess. Someone was here before me and it looks like they had something against shelves
+SCENE TWO HINT TWO
+Maybe whoever was here last missed something, I should check around the shelves
+SCENE TWO HINT THREE
+I can’t seem to find anything. Maybe I should clean up a bit before continuing
+SCENE TWO HINT FOUR
+The door still won’t open. I wonder if the poems on the walls have anything to do with it.
+
+SCENE TWO OPEN DOOR
+My grandfather had left me not just a key, but a legacy. The temple's halls were adorned with relics and enigmatic symbols, beckoning me deeper into its mysteries. With each puzzle I solved, I felt a profound connection to my grandfather's wisdom and the rich tapestry of our shared lineage.
+
+SCENE THREE ENTER
+And so, with his spirit as my guide, I embarked on a journey that would not only unlock the secrets of the temple but also unravel the enigma of my own existence. 
+SCENE THREE HINT ONE
+Dang, those bats are blocking my path. I need to get rid of them somehow.
+SCENE THREE HINT TWO
+There must be something around here that can drive the bats away.
+SCENE THREE HINT THREE
+I read somewhere that bats are afraid of fire. If only I had a torch.
+
+SCENE THREE TORCH EXTINGUISH
+Dang, my torch went out. Well, its useless now.
+
+SCENE THREE OPEN DOOR
+Though my adventure was filled with danger, I pushed forward through the dark passages, knowing that the closure I seeked was just past these doors. Somewhere ahead, my grandfather’s last wishes would be truly revealed.
+
+SCENE FOUR MAZE ENTER
+My grandfather never said what was on his mind, it was always riddles with him. His mind was the most elaborate labyrinth of puzzles and secrets.
+
+SCENE FOUR HINT ONE
+These levers must do something. Maybe they open a door?
+SCENE FOUR HINT TWO
+I saw a wall with the same color as one of the levers. Maybe they’re connected?
+SCENE FOUR HINT THREE
+Maybe I messed up, I should check the first levers to see
+SCENE FIVE ENTER
+What the heck? That bat took my key! How am I going to get through now?
+SCENE FIVE HINT ONE
+If only I had that torch from earlier, I might be able to scare that bat off
+SCENE FIVE HINT TWO
+I wonder if there’s something in here that I can use like a torch
+SCENE FIVE HINT THREE
+That beam looks loose, maybe I can do something with it
+
+PARADISE ENTER
+As I passed through the threshold, a feeling of finality washed over me, yet my excitement only grew as I saw the narrow tunnels and calustrophobic chambers of the temple open to the outside. The sun beamed down in front of me, striking a familiarly emblazened urn. I saw the pedestal upon which it sat and knew that this was my grandfathers final resting place.
+
+BOX OPEN
+As I opened the small vessel below, I saw that it held an ancient figurine and another letter. A familiar mix of emotions crept through my mind as I stooped to read the passage my grandfather had left for me.
+
+LETTER OPEN
+My hands trembled and my eyes grew blurry as I opened the note. I knew that whatever was written in its folds would be the last thing my grandfather could ever tell me. 
+
+“To my bravest adventurer,
+
+I am proud that you bested my greatest puzzle. I couldn’t have asked for a better grandchild to share my final adventure with. Now, however, you must embark on your own journey, unguided and untampered by those who came before. I leave you my unfinished mystery so that you can uncover its secrets. But your quest is your own to lead. I pray that my blessing upon it will be enough to shield you from the dangers of your future endeavors.
+
+May your path be rugged and your travels rewarding,
+Grandpa”
+
+In that moment, as I stood at the threshold of the unknown, I realized that this was not just a physical adventure but a journey of self-discovery—a testament to the bond between generations and the enduring power of love and legacy. And somewhere out there, a new secret was waiting to be revealed
