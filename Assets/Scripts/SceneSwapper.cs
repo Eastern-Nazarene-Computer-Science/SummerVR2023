@@ -11,7 +11,7 @@ public class SceneSwapper : MonoBehaviour
         Debug.Log("trigger active");
         LoadRoom(targetRoom);
     }
-    void LoadRoom(string toLoad)
+    public void LoadRoom(string toLoad)
     {
         SceneManager.LoadScene(toLoad);
     }
