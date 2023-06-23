@@ -9,6 +9,8 @@ public class BatAttackHandler : MonoBehaviour
     public Animator batAnimator;
     public AnimationClip batAttackAnim;
     public XROrigin playerOrigin;
+    public GameObject BAT;
+    public GameObject mainCam;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -20,8 +22,12 @@ public class BatAttackHandler : MonoBehaviour
         playerturn.enabled = false;
         playertele.enabled = false;
         // apply camera position to animation position
+        BAT.transform.SetParent(mainCam.transform);
+        BAT.transform.localPosition = new Vector3(-0.35f, -9.38f, 1f);
+        BAT.transform.rotation = new Quaternion(0, 45, 0, 1);
         // start cutscene
-        batAnimator.SetInteger("attackStart", 1);
+        batAnimator.SetBool("attackStart", true);
+        Debug.Log(batAnimator.GetCurrentAnimatorStateInfo(0));
         // restart player movement
         playermove.enabled = true;
         playerturn.enabled = true;
