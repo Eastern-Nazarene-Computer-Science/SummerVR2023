@@ -46,5 +46,4 @@ public class ObjectAnimation : MonoBehaviour
 
         // Stop moving towards the target position
         movingToTarget = false;
-    }
-}
+    
