@@ -18,6 +18,9 @@ public class BodySocketInventory : MonoBehaviour
 
     private Vector3 _currentHMDlocalPosition;
     private Quaternion _currentHMDRotation;
+
+    public object CurrentItem { get; internal set; }
+
     void Update()
     {
         _currentHMDlocalPosition = HMD.transform.localPosition;

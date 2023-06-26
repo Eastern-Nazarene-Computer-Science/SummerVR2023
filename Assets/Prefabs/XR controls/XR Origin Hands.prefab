@@ -2796,7 +2796,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 6744171333814253300}
   - component: {fileID: 6490973624215975798}
   - component: {fileID: 3901397735446378939}
@@ -2804,11 +2803,6 @@ GameObject:
   - component: {fileID: 7774634257622960059}
   m_Layer: 2
   m_Name: XR Origin Hands
-=======
-  - component: {fileID: 4144911448418569042}
-  m_Layer: 0
-  m_Name: CameraOffset
->>>>>>> main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2835,7 +2829,6 @@ Transform:
   m_Father: {fileID: 4144911447129720920}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!114 &6490973624215975798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2900,9 +2893,6 @@ CapsuleCollider:
   m_Direction: 1
   m_Center: {x: 0, y: 0.8, z: 0}
 --- !u!1 &8438646577071122915
-=======
---- !u!1 &4144911448604070133
->>>>>>> main
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3016,17 +3006,10 @@ MonoBehaviour:
   m_PositionInput:
     m_UseReference: 1
     m_Action:
-<<<<<<< HEAD
       m_Name: 
       m_Type: 0
       m_ExpectedControlType: 
       m_Id: 
-=======
-      m_Name: Position
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 0bacfa51-7938-4a88-adae-9e8ba6c59d23
->>>>>>> main
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
@@ -3044,17 +3027,10 @@ MonoBehaviour:
   m_RotationInput:
     m_UseReference: 1
     m_Action:
-<<<<<<< HEAD
       m_Name: 
       m_Type: 0
       m_ExpectedControlType: 
       m_Id: 
-=======
-      m_Name: Rotation
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 5439f14e-c9da-4bd1-ad3f-7121a75c10d9
->>>>>>> main
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
@@ -3157,7 +3133,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 8438646577476631503}
   - component: {fileID: 8438646577476631502}
   - component: {fileID: 8438646577476631488}
@@ -3673,13 +3648,6 @@ GameObject:
   - component: {fileID: 1096758023919567349}
   - component: {fileID: 7332498593884283848}
   - component: {fileID: 7741954102803616451}
-=======
-  - component: {fileID: 4144911448635992477}
-  - component: {fileID: 4144911448635992465}
-  - component: {fileID: 4144911448635992478}
-  - component: {fileID: 4144911448635992479}
-  - component: {fileID: 4144911448635992476}
->>>>>>> main
   m_Layer: 0
   m_Name: Left Hand
   m_TagString: Untagged
