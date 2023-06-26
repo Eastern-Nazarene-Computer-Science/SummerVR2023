@@ -560,6 +560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 5354633217624420269}
+  xrbruh: {fileID: 0}
 --- !u!1 &6550126104186373189
 GameObject:
   m_ObjectHideFlags: 0

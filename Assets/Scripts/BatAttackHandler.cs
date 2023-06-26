@@ -12,7 +12,7 @@ public class BatAttackHandler : MonoBehaviour
     public GameObject BAT;
     public GameObject mainCam;
 
-    private void OnTriggerEnter(Collider other)
+    public void BatTriggerEnter(Collider other)
     {
         // stop player movement 
         ActionBasedContinuousMoveProvider playermove = playerOrigin.GetComponentInChildren<ActionBasedContinuousMoveProvider>();
@@ -27,8 +27,17 @@ public class BatAttackHandler : MonoBehaviour
         BAT.transform.rotation = new Quaternion(0, 45, 0, 1);
         // start cutscene
         batAnimator.SetBool("attackStart", true);
-        Debug.Log(batAnimator.GetCurrentAnimatorStateInfo(0));
+    }
+
+    public void RestartAfterAttack()
+    {
+        Debug.Log("restartafterattakc");
+        ActionBasedContinuousMoveProvider playermove = playerOrigin.GetComponentInChildren<ActionBasedContinuousMoveProvider>();
+        ActionBasedSnapTurnProvider playerturn = playerOrigin.GetComponentInChildren<ActionBasedSnapTurnProvider>();
+        TeleportationProvider playertele = playerOrigin.GetComponentInChildren<TeleportationProvider>();
         // restart player movement
+        BAT.transform.SetParent(null);
+        BAT.transform.position = Vector3.zero;
         playermove.enabled = true;
         playerturn.enabled = true;
         playertele.enabled = true;

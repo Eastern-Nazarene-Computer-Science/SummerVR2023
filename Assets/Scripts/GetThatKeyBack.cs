@@ -15,7 +15,8 @@ public class GetThatKeyBack : MonoBehaviour
             dakey.GetComponent<XRGrabInteractable>().enabled = true; // allow key to be pickup
             dakey.GetComponent<Rigidbody>().useGravity = true; // use gravity on key
             dakey.transform.SetParent(null, true); // move parent to scene
-            BAT.GetComponent<Animator>().SetInteger("batHit", 1); // transition bat from circling to escaping
+            dakey.GetComponent<BoxCollider>().enabled = true;
+            BAT.GetComponent<Animator>().SetBool("batHit", true); // transition bat from circling to escaping
         }
     }
 }
