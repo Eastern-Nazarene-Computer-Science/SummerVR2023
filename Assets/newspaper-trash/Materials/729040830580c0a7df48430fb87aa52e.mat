@@ -59,11 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-<<<<<<< HEAD:Assets/Materials/SandstoneBricks/Materials/large_sandstone_blocks_01_ao_1k 1.mat
-        m_Texture: {fileID: 0}
-=======
         m_Texture: {fileID: 2800000, guid: 8bd2c721903a642a488a575c6f30beff, type: 3}
->>>>>>> main:Assets/newspaper-trash/Materials/729040830580c0a7df48430fb87aa52e.mat
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
