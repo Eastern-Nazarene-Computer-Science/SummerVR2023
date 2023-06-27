@@ -9,12 +9,13 @@ public class RigidFollowPlayer : MonoBehaviour
     Rigidbody playerRB;
     float playerHeight;
     public Camera mainCamera;
+    public XROrigin xrbruh;
     // Start is called before the first frame update
     void Start()
     {
         playerRB = gameObject.GetComponent<Rigidbody>();
         capsule = gameObject.GetComponent<CapsuleCollider>();
-        playerHeight = gameObject.GetComponent<XROrigin>().CameraYOffset;
+        playerHeight = xrbruh.CameraInOriginSpaceHeight;
         capsule.height = playerHeight;
         capsule.center = new Vector3(0, playerHeight / 2, 0);
     }
