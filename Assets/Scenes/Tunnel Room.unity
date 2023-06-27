@@ -447,12 +447,12 @@ PrefabInstance:
     - target: {fileID: 5650937177665581299, guid: 2ecee93142b6f2248b611f198ce295cb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.122
+      value: 0.162
       objectReference: {fileID: 0}
     - target: {fileID: 5650937177665581299, guid: 2ecee93142b6f2248b611f198ce295cb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0293
+      value: -0.085
       objectReference: {fileID: 0}
     - target: {fileID: 5650937177665581299, guid: 2ecee93142b6f2248b611f198ce295cb,
         type: 3}
@@ -8090,7 +8090,7 @@ PrefabInstance:
     - target: {fileID: 5650937177665581299, guid: 2ecee93142b6f2248b611f198ce295cb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.117
+      value: -0.144
       objectReference: {fileID: 0}
     - target: {fileID: 5650937177665581299, guid: 2ecee93142b6f2248b611f198ce295cb,
         type: 3}
@@ -10102,6 +10102,7 @@ GameObject:
   - component: {fileID: 1442156178}
   - component: {fileID: 1442156177}
   - component: {fileID: 1442156176}
+  - component: {fileID: 1442156185}
   m_Layer: 7
   m_Name: torch tip
   m_TagString: Untagged
@@ -10297,6 +10298,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1442156174}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1442156185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442156174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f718bd445b4ec0648bed5c10c8bcdfdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flameObj: {fileID: 601800595}
 --- !u!1 &1445525987
 GameObject:
   m_ObjectHideFlags: 0
