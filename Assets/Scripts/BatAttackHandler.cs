@@ -10,7 +10,7 @@ public class BatAttackHandler : MonoBehaviour
     public AnimationClip batAttackAnim;
     public XROrigin playerOrigin;
     public GameObject BAT;
-    public GameObject mainCam;
+    public GameObject mainCamOffset;
     public AudioClip scream;
 
     public void BatTriggerEnter(Collider other)
@@ -30,7 +30,7 @@ public class BatAttackHandler : MonoBehaviour
         playermove.enabled = false;
         playertele.enabled = false;
         // apply camera position to animation position
-        BAT.transform.SetParent(mainCam.transform);
+        BAT.transform.SetParent(mainCamOffset.transform);
         BAT.transform.localPosition = new Vector3(-0.35f, -9.38f, 1f);
         BAT.transform.rotation = new Quaternion(0, 45, 0, 1);
         // start cutscene
