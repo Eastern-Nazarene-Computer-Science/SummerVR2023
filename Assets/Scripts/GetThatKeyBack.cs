@@ -10,7 +10,7 @@ public class GetThatKeyBack : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.GetComponent<FireLightable>() && other.gameObject.GetComponent<Light>().intensity > 0 && !other.gameObject.GetComponent<LightSwitch>()) // is it a torch and not a lighter
+        if (other.gameObject.GetComponent<FireLightable>() && other.gameObject.GetComponent<Light>().intensity > 0) // is it a torch and not a lighter
         {
             dakey.GetComponent<XRGrabInteractable>().enabled = true; // allow key to be pickup
             dakey.GetComponent<Rigidbody>().useGravity = true; // use gravity on key

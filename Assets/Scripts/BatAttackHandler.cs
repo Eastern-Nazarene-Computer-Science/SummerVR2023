@@ -11,15 +11,23 @@ public class BatAttackHandler : MonoBehaviour
     public XROrigin playerOrigin;
     public GameObject BAT;
     public GameObject mainCam;
+    public AudioClip scream;
 
     public void BatTriggerEnter(Collider other)
     {
         // stop player movement 
+        ActionBasedSnapTurnProvider playerturnb = playerOrigin.GetComponentInChildren<ActionBasedSnapTurnProvider>();
+        ActionBasedContinuousTurnProvider playerturna = playerOrigin.GetComponentInChildren<ActionBasedContinuousTurnProvider>();
         ActionBasedContinuousMoveProvider playermove = playerOrigin.GetComponentInChildren<ActionBasedContinuousMoveProvider>();
-        ActionBasedSnapTurnProvider playerturn = playerOrigin.GetComponentInChildren<ActionBasedSnapTurnProvider>();
         TeleportationProvider playertele = playerOrigin.GetComponentInChildren<TeleportationProvider>();
+        if (playerturna)
+        {
+           playerturna.enabled = false;
+        } else if (playerturnb)
+        {
+            playerturnb.enabled=false;
+        }
         playermove.enabled = false;
-        playerturn.enabled = false;
         playertele.enabled = false;
         // apply camera position to animation position
         BAT.transform.SetParent(mainCam.transform);
@@ -27,19 +35,29 @@ public class BatAttackHandler : MonoBehaviour
         BAT.transform.rotation = new Quaternion(0, 45, 0, 1);
         // start cutscene
         batAnimator.SetBool("attackStart", true);
+        AudioSource batscream = BAT.GetComponent<AudioSource>();
+        batscream.PlayOneShot(scream);
     }
 
     public void RestartAfterAttack()
     {
         Debug.Log("restartafterattakc");
+        ActionBasedSnapTurnProvider playerturnb = playerOrigin.GetComponentInChildren<ActionBasedSnapTurnProvider>();
+        ActionBasedContinuousTurnProvider playerturna = playerOrigin.GetComponentInChildren<ActionBasedContinuousTurnProvider>();
         ActionBasedContinuousMoveProvider playermove = playerOrigin.GetComponentInChildren<ActionBasedContinuousMoveProvider>();
-        ActionBasedSnapTurnProvider playerturn = playerOrigin.GetComponentInChildren<ActionBasedSnapTurnProvider>();
         TeleportationProvider playertele = playerOrigin.GetComponentInChildren<TeleportationProvider>();
         // restart player movement
         BAT.transform.SetParent(null);
         BAT.transform.position = Vector3.zero;
         playermove.enabled = true;
-        playerturn.enabled = true;
+        if (playerturna)
+        {
+            playerturna.enabled = true;
+        }
+        else if (playerturnb)
+        {
+            playerturnb.enabled = true;
+        }
         playertele.enabled = true;
     }
 }

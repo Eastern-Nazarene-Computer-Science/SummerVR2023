@@ -244,11 +244,16 @@ PrefabInstance:
       propertyPath: m_RightHandMoveAction.m_UseReference
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5354633217682830216, guid: 1b12f9036aa3c6f44a617d7586ecc247,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6160404459919149113, guid: 1b12f9036aa3c6f44a617d7586ecc247,
         type: 3}
       propertyPath: m_System
       value: 
-      objectReference: {fileID: 6125115406256875118}
+      objectReference: {fileID: 0}
     - target: {fileID: 6160404459919149113, guid: 1b12f9036aa3c6f44a617d7586ecc247,
         type: 3}
       propertyPath: m_LeftHandSnapTurnAction.m_UseReference
@@ -326,18 +331,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b12f9036aa3c6f44a617d7586ecc247, type: 3}
---- !u!114 &6125115406256875118 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7966196366037615651, guid: 1b12f9036aa3c6f44a617d7586ecc247,
-    type: 3}
-  m_PrefabInstance: {fileID: 4291179895567458893}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &7355866352814806201 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6744171333814253300, guid: 1b12f9036aa3c6f44a617d7586ecc247,

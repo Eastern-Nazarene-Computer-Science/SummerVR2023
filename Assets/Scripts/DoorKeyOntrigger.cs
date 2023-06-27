@@ -7,6 +7,8 @@ public class DoorKeyOntrigger : MonoBehaviour
 {
     public Animator DoorAnimations;
 
+
+
     public void OnSelectEnter(SelectEnterEventArgs args)
     {
         Debug.Log("OnSelectEnter");
