@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,3 +11,4 @@ public class ResetGame : MonoBehaviour
         SceneManager.LoadScene(initialSceneName);
     }
 }
+
