@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2209834966169015785}
   - component: {fileID: 2209834966169015782}
   - component: {fileID: 2209834966169015783}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Flashlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +319,7 @@ GameObject:
   - component: {fileID: 2209834966250040157}
   - component: {fileID: 2209834966250040159}
   - component: {fileID: 2209834966250040156}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Shield (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 2209834966303374407}
   - component: {fileID: 2209834966303374409}
   - component: {fileID: 2209834966303374406}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Switch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +485,7 @@ GameObject:
   - component: {fileID: 2209834966411429028}
   - component: {fileID: 2209834966411429030}
   - component: {fileID: 2209834966411429031}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Switch housing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -568,7 +568,7 @@ GameObject:
   - component: {fileID: 2209834966558315816}
   - component: {fileID: 2209834966558315817}
   - component: {fileID: 2209834966558315814}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Spotlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -639,7 +639,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 1981
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -684,7 +684,7 @@ GameObject:
   - component: {fileID: 2209834966860177184}
   - component: {fileID: 2209834966860177185}
   - component: {fileID: 2209834966860177182}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lens
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2209834967061776807}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Grip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -815,7 +815,7 @@ GameObject:
   - component: {fileID: 2209834967355636838}
   - component: {fileID: 2209834967355636839}
   - component: {fileID: 2209834967355636836}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -910,7 +910,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2209834967667424637}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -945,7 +945,7 @@ GameObject:
   - component: {fileID: 8418534577893671865}
   - component: {fileID: 4113678483038844107}
   - component: {fileID: 3175951986990796401}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: findlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
