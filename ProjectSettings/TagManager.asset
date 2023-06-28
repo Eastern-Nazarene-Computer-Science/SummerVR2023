@@ -12,11 +12,11 @@ TagManager:
   - Wall
   - Water
   - UI
-  - Item
-  - 
-  - 
-  - 
-  - 
+  - teleport
+  - item
+  - player
+  - interactive
+  - Hands
   - 
   - 
   - 

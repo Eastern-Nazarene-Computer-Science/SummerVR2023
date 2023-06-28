@@ -1,0 +1,3831 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BatEscape
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.04883617, y: 0.21357009, z: 0.6777698, w: 0.70187664}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: -0.027939675, y: 0.006705522, z: -0.08940696, w: 0.0911951}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033333335
+        value: {x: 0.047914892, y: 0.21377866, z: 0.67473733, w: 0.7047924}
+        inSlope: {x: -0.056549903, y: 0.01206994, z: -0.18596648, w: 0.17702578}
+        outSlope: {x: -0.055432316, y: 0.012964009, z: -0.18417834, w: 0.17702578}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666667
+        value: {x: 0.045105368, y: 0.21438903, z: 0.6654303, w: 0.7135863}
+        inSlope: {x: -0.11377036, y: 0.023692844, z: -0.3790855, w: 0.35226342}
+        outSlope: {x: -0.11399389, y: 0.024139883, z: -0.37908557, w: 0.35226348}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1
+        value: {x: 0.040308982, y: 0.2153424, z: 0.6493373, w: 0.7282609}
+        inSlope: {x: -0.17523767, y: 0.03308058, z: -0.5936623, w: 0.52750117}
+        outSlope: {x: -0.17501411, y: 0.032186504, z: -0.59008586, w: 0.5257129}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333334
+        value: {x: 0.033416636, y: 0.21651903, z: 0.625767, w: 0.74861103}
+        inSlope: {x: -0.23938711, y: 0.037103884, z: -0.82969654, w: 0.6920098}
+        outSlope: {x: -0.24005772, y: 0.03665686, z: -0.8296967, w: 0.6937981}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666667
+        value: {x: 0.024336219, y: 0.21772668, z: 0.5939256, w: 0.7741158}
+        inSlope: {x: -0.30554834, y: 0.034421686, z: -1.0871888, w: 0.83506113}
+        outSlope: {x: -0.30532482, y: 0.03397465, z: -1.0836126, w: 0.83148485}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.2
+        value: {x: 0.013040774, y: 0.21869406, z: 0.5530859, w: 0.8038027}
+        inSlope: {x: -0.3705919, y: 0.022351744, z: -1.3625623, w: 0.9387732}
+        outSlope: {x: -0.3703684, y: 0.021904709, z: -1.3607742, w: 0.9369851}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.23333333
+        value: {x: -0.0003729537, y: 0.2190822, z: 0.5028366, w: 0.8361568}
+        inSlope: {x: -0.4296005, y: -0.00089406973, z: -1.6397239, w: 0.9834767}
+        outSlope: {x: -0.42937678, y: -0.00044703466, z: -1.6397232, w: 0.98705256}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.26666668
+        value: {x: -0.015608661, y: 0.2185258, z: 0.44346642, w: 0.8691032}
+        inSlope: {x: -0.47676247, y: -0.033974633, z: -1.895427, w: 0.96917117}
+        outSlope: {x: -0.47609213, y: -0.034421686, z: -1.8936397, w: 0.9655953}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.3
+        value: {x: -0.03214103, y: 0.21671204, z: 0.3762585, w: 0.9002402}
+        inSlope: {x: -0.5044789, y: -0.074654825, z: -2.0956995, w: 0.87618834}
+        outSlope: {x: -0.5047024, y: -0.074654825, z: -2.0965936, w: 0.87618834}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.049242318, y: 0.21347682, z: 0.3036096, w: 0.927267}
+        inSlope: {x: -0.509061, y: -0.11757017, z: -2.2110345, w: 0.7241965}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.048835874, y: -0.21357074, z: 0.6777682, w: 0.70187813}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0.02749264, y: -0.0062584872, z: -0.0911951, w: 0.08761882}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033333335
+        value: {x: -0.04791461, y: -0.2137793, z: 0.6747357, w: 0.7047938}
+        inSlope: {x: 0.055432316, y: -0.01206994, z: -0.1823902, w: 0.17523764}
+        outSlope: {x: 0.05587935, y: -0.013411044, z: -0.18417834, w: 0.17523764}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666667
+        value: {x: -0.045105077, y: -0.21438967, z: 0.66542864, w: 0.7135877}
+        inSlope: {x: 0.11354684, y: -0.023692844, z: -0.37550923, w: 0.35405156}
+        outSlope: {x: 0.11421741, y: -0.023692848, z: -0.3808737, w: 0.35405162}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1
+        value: {x: -0.040308654, y: -0.21534303, z: 0.64933556, w: 0.7282623}
+        inSlope: {x: 0.17546119, y: -0.03308058, z: -0.5936623, w: 0.53107744}
+        outSlope: {x: 0.17434356, y: -0.03263354, z: -0.5882977, w: 0.52392477}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333334
+        value: {x: -0.033418223, y: -0.21651933, z: 0.6257719, w: 0.7486068}
+        inSlope: {x: 0.23938711, y: -0.03665685, z: -0.8279084, w: 0.6920098}
+        outSlope: {x: 0.23938717, y: -0.03755093, z: -0.8279086, w: 0.69201}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666667
+        value: {x: -0.024335854, y: -0.21772727, z: 0.59392387, w: 0.774117}
+        inSlope: {x: 0.30532482, y: -0.03397465, z: -1.0836126, w: 0.833273}
+        outSlope: {x: 0.30554834, y: -0.03397465, z: -1.088977, w: 0.833273}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.2
+        value: {x: -0.013040386, y: -0.21869467, z: 0.55308414, w: 0.80380386}
+        inSlope: {x: 0.37014487, y: -0.022351744, z: -1.358986, w: 0.9369851}
+        outSlope: {x: 0.37014487, y: -0.021457674, z: -1.3625623, w: 0.93519694}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.23333333
+        value: {x: 0.00037338585, y: -0.21908277, z: 0.5028346, w: 0.83615786}
+        inSlope: {x: 0.42982402, y: 0, z: -1.6397239, w: 0.98526484}
+        outSlope: {x: 0.42937678, y: 0.001341104, z: -1.6397232, w: 0.9852644}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.26666668
+        value: {x: 0.01560913, y: -0.21852633, z: 0.44346446, w: 0.8691041}
+        inSlope: {x: 0.47676247, y: 0.033974633, z: -1.895427, w: 0.96917117}
+        outSlope: {x: 0.47631565, y: 0.03397465, z: -1.8945338, w: 0.9655953}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.3
+        value: {x: 0.032141514, y: -0.21671253, z: 0.3762565, w: 0.9002409}
+        inSlope: {x: 0.50425535, y: 0.074654825, z: -2.0948055, w: 0.87618834}
+        outSlope: {x: 0.5051494, y: 0.074654825, z: -2.0983818, w: 0.87618834}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: 0.049242876, y: -0.21347725, z: 0.30360746, w: 0.92726755}
+        inSlope: {x: 0.5092845, y: 0.117123134, z: -2.2110345, w: 0.7241965}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature
+  m_CompressedRotationCurves: []
+  m_EulerCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 45.35, y: 78.129, z: 81.495}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/Root
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.8, y: 0.9, z: -99.5}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: 16.7, y: -14.5, z: -245.8}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/Root
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.023667023, y: 0.95918375, z: 0.3102043}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.033333335
+        value: {x: -0.026114795, y: 0.9534265, z: 0.31260243}
+        inSlope: {x: -0.07344052, y: -0.17273544, z: 0.07195119}
+        outSlope: {x: -0.07344052, y: -0.17273544, z: 0.07195119}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.06666667
+        value: {x: -0.033448283, y: 0.93592805, z: 0.3198483}
+        inSlope: {x: -0.21996063, y: -0.52484804, z: 0.21733259}
+        outSlope: {x: -0.21996063, y: -0.52484804, z: 0.21733259}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.1
+        value: {x: -0.0456423, y: 0.906513, z: 0.3319746}
+        inSlope: {x: -0.36585715, y: -0.88254035, z: 0.36382526}
+        outSlope: {x: -0.36585715, y: -0.88254035, z: 0.36382526}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.13333334
+        value: {x: -0.06252282, y: 0.8651959, z: 0.34890726}
+        inSlope: {x: -0.5064662, y: -1.2396371, z: 0.5080308}
+        outSlope: {x: -0.5064662, y: -1.2396371, z: 0.5080308}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.16666667
+        value: {x: -0.083790295, y: 0.8122914, z: 0.37044814}
+        inSlope: {x: -0.6378968, y: -1.5868176, z: 0.64609736}
+        outSlope: {x: -0.6378968, y: -1.5868176, z: 0.64609736}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.2
+        value: {x: -0.10894164, y: 0.74844015, z: 0.39623693}
+        inSlope: {x: -0.75461555, y: -1.9157282, z: 0.7737407}
+        outSlope: {x: -0.75461555, y: -1.9157282, z: 0.7737407}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.23333333
+        value: {x: -0.13733011, y: 0.67469007, z: 0.42575574}
+        inSlope: {x: -0.8517397, y: -2.212724, z: 0.88565314}
+        outSlope: {x: -0.8517397, y: -2.212724, z: 0.88565314}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.26666668
+        value: {x: -0.16808729, y: 0.59252226, z: 0.45829093}
+        inSlope: {x: -0.92253095, y: -2.464542, z: 0.9758609}
+        outSlope: {x: -0.92253095, y: -2.464542, z: 0.9758609}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.3
+        value: {x: -0.20021725, y: 0.50379604, z: 0.49298483}
+        inSlope: {x: -0.9639945, y: -2.662051, z: 1.0409203}
+        outSlope: {x: -0.9639945, y: -2.662051, z: 1.0409203}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.23257, y: 0.4106953, z: 0.52883816}
+        inSlope: {x: -0.97068006, y: -2.7933016, z: 1.0757076}
+        outSlope: {x: -0.97068006, y: -2.7933016, z: 1.0757076}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.79289, y: 0, z: -0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature/English_DragonLArmPalm_Armature/English_DragonLArmDigit61_Armature/English_DragonLArmDigit62_Armature/English_DragonLArmDigit63_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.023671407, y: 0.95920146, z: -0.31020385}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.033333335
+        value: {x: -0.026114795, y: 0.95343524, z: -0.31260243}
+        inSlope: {x: -0.073308975, y: -0.17300369, z: -0.07196461}
+        outSlope: {x: -0.073308975, y: -0.17300369, z: -0.07196461}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.06666667
+        value: {x: -0.033452667, y: 0.935946, z: -0.31984788}
+        inSlope: {x: -0.22009215, y: -0.52457273, z: -0.21732007}
+        outSlope: {x: -0.22009215, y: -0.52457273, z: -0.21732007}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.1
+        value: {x: -0.045646682, y: 0.90653116, z: -0.33197418}
+        inSlope: {x: -0.36585703, y: -0.8825332, z: -0.36382526}
+        outSlope: {x: -0.36585703, y: -0.8825332, z: -0.36382526}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.13333334
+        value: {x: -0.06252721, y: 0.8652144, z: -0.34890684}
+        inSlope: {x: -0.50646645, y: -1.2396264, z: -0.5080308}
+        outSlope: {x: -0.50646645, y: -1.2396264, z: -0.5080308}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.16666667
+        value: {x: -0.08378207, y: 0.8123052, z: -0.37044388}
+        inSlope: {x: -0.63751847, y: -1.5869589, z: -0.645982}
+        outSlope: {x: -0.63751847, y: -1.5869589, z: -0.645982}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.2
+        value: {x: -0.10894164, y: 0.74845076, z: -0.39623693}
+        inSlope: {x: -0.7548623, y: -1.9158248, z: -0.77386856}
+        outSlope: {x: -0.7548623, y: -1.9158248, z: -0.77386856}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.23333333
+        value: {x: -0.13733011, y: 0.6747013, z: -0.42575574}
+        inSlope: {x: -0.8517397, y: -2.212706, z: -0.88565314}
+        outSlope: {x: -0.8517397, y: -2.212706, z: -0.88565314}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.26666668
+        value: {x: -0.16808729, y: 0.5925342, z: -0.45829093}
+        inSlope: {x: -0.92253095, y: -2.4645205, z: -0.9758609}
+        outSlope: {x: -0.92253095, y: -2.4645205, z: -0.9758609}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.3
+        value: {x: -0.20021725, y: 0.50380874, z: -0.49298483}
+        inSlope: {x: -0.9639945, y: -2.6620278, z: -1.0409203}
+        outSlope: {x: -0.9639945, y: -2.6620278, z: -1.0409203}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.23257439, y: 0.41071776, z: -0.52883774}
+        inSlope: {x: -0.9708115, y: -2.7930093, z: -1.075695}
+        outSlope: {x: -0.9708115, y: -2.7930093, z: -1.075695}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 3.34672, y: 0.05754, z: -0.05058}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit01_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.2832099, y: -0.0000004726, z: -0.00000063379997}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit41_Armature/English_DragonRArmDigit42_Armature/English_DragonRArmDigit43_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.79332, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit61_Armature/English_DragonRArmDigit62_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.7929, y: 0.0000000769, z: -0.0000007966}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit61_Armature/English_DragonRArmDigit62_Armature/English_DragonRArmDigit63_Armature
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -5.18406, y: -2.15157, z: 30.84018}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.033333335
+        value: {x: -5.18406, y: -2.15157, z: 30.831839}
+        inSlope: {x: 0, y: 0, z: -0.25025007}
+        outSlope: {x: 0, y: 0, z: -0.25025007}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.06666667
+        value: {x: -5.18406, y: -2.15157, z: 30.80678}
+        inSlope: {x: 0, y: 0, z: -0.75161207}
+        outSlope: {x: 0, y: 0, z: -0.75161207}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.1
+        value: {x: -5.18406, y: -2.15157, z: 30.764929}
+        inSlope: {x: 0, y: 0, z: -1.2556568}
+        outSlope: {x: 0, y: 0, z: -1.2556568}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.13333334
+        value: {x: -5.18406, y: -2.15157, z: 30.7062}
+        inSlope: {x: 0, y: 0, z: -1.7620513}
+        outSlope: {x: 0, y: 0, z: -1.7620513}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.16666667
+        value: {x: -5.18406, y: -2.15157, z: 30.63053}
+        inSlope: {x: 0, y: 0, z: -2.2696538}
+        outSlope: {x: 0, y: 0, z: -2.2696538}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.2
+        value: {x: -5.18406, y: -2.15157, z: 30.53789}
+        inSlope: {x: 0, y: 0, z: -2.779475}
+        outSlope: {x: 0, y: 0, z: -2.779475}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.23333333
+        value: {x: -5.18406, y: -2.15157, z: 30.428219}
+        inSlope: {x: 0, y: 0, z: -3.290449}
+        outSlope: {x: 0, y: 0, z: -3.290449}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.26666668
+        value: {x: -5.18406, y: -2.15157, z: 30.301498}
+        inSlope: {x: 0, y: 0, z: -3.8008535}
+        outSlope: {x: 0, y: 0, z: -3.8008535}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.3
+        value: {x: -5.18406, y: -2.15157, z: 30.157719}
+        inSlope: {x: 0, y: 0, z: -4.313821}
+        outSlope: {x: 0, y: 0, z: -4.313821}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -5.18406, y: -2.15157, z: 29.99685}
+        inSlope: {x: 0, y: 0, z: -4.8265715}
+        outSlope: {x: 0, y: 0, z: -4.8265715}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0, z: 0}
+        outWeight: {x: 0, y: 0, z: 0}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonRLegPlatform_Armature
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000099, y: 0.99999666, z: 0.9999961}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit61_Armature
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 873906804
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1425627147
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1248621717
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2536243476
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1425627147
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1248621717
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3705288062
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3540320281
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 833970676
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3474095219
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1305045493
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 873906804
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1001441882
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.33333334
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.8
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 16.7
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Sketchfab_model/Root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.9
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -14.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Sketchfab_model/Root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -99.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -245.8
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Sketchfab_model/Root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 45.35
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Sketchfab_model/Root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 78.129
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Sketchfab_model/Root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 81.495
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Sketchfab_model/Root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.023667023
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -0.026114795
+        inSlope: -0.07344052
+        outSlope: -0.07344052
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -0.033448283
+        inSlope: -0.21996063
+        outSlope: -0.21996063
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.1
+        value: -0.0456423
+        inSlope: -0.36585715
+        outSlope: -0.36585715
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -0.06252282
+        inSlope: -0.5064662
+        outSlope: -0.5064662
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -0.083790295
+        inSlope: -0.6378968
+        outSlope: -0.6378968
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: -0.10894164
+        inSlope: -0.75461555
+        outSlope: -0.75461555
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.23333333
+        value: -0.13733011
+        inSlope: -0.8517397
+        outSlope: -0.8517397
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.26666668
+        value: -0.16808729
+        inSlope: -0.92253095
+        outSlope: -0.92253095
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.3
+        value: -0.20021725
+        inSlope: -0.9639945
+        outSlope: -0.9639945
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.23257
+        inSlope: -0.97068006
+        outSlope: -0.97068006
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.95918375
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 0.9534265
+        inSlope: -0.17273544
+        outSlope: -0.17273544
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 0.93592805
+        inSlope: -0.52484804
+        outSlope: -0.52484804
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.1
+        value: 0.906513
+        inSlope: -0.88254035
+        outSlope: -0.88254035
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 0.8651959
+        inSlope: -1.2396371
+        outSlope: -1.2396371
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 0.8122914
+        inSlope: -1.5868176
+        outSlope: -1.5868176
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.74844015
+        inSlope: -1.9157282
+        outSlope: -1.9157282
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 0.67469007
+        inSlope: -2.212724
+        outSlope: -2.212724
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 0.59252226
+        inSlope: -2.464542
+        outSlope: -2.464542
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.50379604
+        inSlope: -2.662051
+        outSlope: -2.662051
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.4106953
+        inSlope: -2.7933016
+        outSlope: -2.7933016
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.3102043
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 0.31260243
+        inSlope: 0.07195119
+        outSlope: 0.07195119
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 0.3198483
+        inSlope: 0.21733259
+        outSlope: 0.21733259
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.1
+        value: 0.3319746
+        inSlope: 0.36382526
+        outSlope: 0.36382526
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 0.34890726
+        inSlope: 0.5080308
+        outSlope: 0.5080308
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 0.37044814
+        inSlope: 0.64609736
+        outSlope: 0.64609736
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.39623693
+        inSlope: 0.7737407
+        outSlope: 0.7737407
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 0.42575574
+        inSlope: 0.88565314
+        outSlope: 0.88565314
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 0.45829093
+        inSlope: 0.9758609
+        outSlope: 0.9758609
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.49298483
+        inSlope: 1.0409203
+        outSlope: 1.0409203
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.52883816
+        inSlope: 1.0757076
+        outSlope: 1.0757076
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.04883617
+        inSlope: 0
+        outSlope: -0.027939675
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 0.047914892
+        inSlope: -0.056549903
+        outSlope: -0.055432316
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 0.045105368
+        inSlope: -0.11377036
+        outSlope: -0.11399389
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 0.040308982
+        inSlope: -0.17523767
+        outSlope: -0.17501411
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 0.033416636
+        inSlope: -0.23938711
+        outSlope: -0.24005772
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 0.024336219
+        inSlope: -0.30554834
+        outSlope: -0.30532482
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.013040774
+        inSlope: -0.3705919
+        outSlope: -0.3703684
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: -0.0003729537
+        inSlope: -0.4296005
+        outSlope: -0.42937678
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: -0.015608661
+        inSlope: -0.47676247
+        outSlope: -0.47609213
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: -0.03214103
+        inSlope: -0.5044789
+        outSlope: -0.5047024
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.049242318
+        inSlope: -0.509061
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.21357009
+        inSlope: 0
+        outSlope: 0.006705522
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 0.21377866
+        inSlope: 0.01206994
+        outSlope: 0.012964009
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 0.21438903
+        inSlope: 0.023692844
+        outSlope: 0.024139883
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 0.2153424
+        inSlope: 0.03308058
+        outSlope: 0.032186504
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 0.21651903
+        inSlope: 0.037103884
+        outSlope: 0.03665686
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 0.21772668
+        inSlope: 0.034421686
+        outSlope: 0.03397465
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.21869406
+        inSlope: 0.022351744
+        outSlope: 0.021904709
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 0.2190822
+        inSlope: -0.00089406973
+        outSlope: -0.00044703466
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 0.2185258
+        inSlope: -0.033974633
+        outSlope: -0.034421686
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.21671204
+        inSlope: -0.074654825
+        outSlope: -0.074654825
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.21347682
+        inSlope: -0.11757017
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.6777698
+        inSlope: 0
+        outSlope: -0.08940696
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 0.67473733
+        inSlope: -0.18596648
+        outSlope: -0.18417834
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 0.6654303
+        inSlope: -0.3790855
+        outSlope: -0.37908557
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 0.6493373
+        inSlope: -0.5936623
+        outSlope: -0.59008586
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 0.625767
+        inSlope: -0.82969654
+        outSlope: -0.8296967
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 0.5939256
+        inSlope: -1.0871888
+        outSlope: -1.0836126
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.5530859
+        inSlope: -1.3625623
+        outSlope: -1.3607742
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 0.5028366
+        inSlope: -1.6397239
+        outSlope: -1.6397232
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 0.44346642
+        inSlope: -1.895427
+        outSlope: -1.8936397
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.3762585
+        inSlope: -2.0956995
+        outSlope: -2.0965936
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.3036096
+        inSlope: -2.2110345
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.70187664
+        inSlope: 0
+        outSlope: 0.0911951
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 0.7047924
+        inSlope: 0.17702578
+        outSlope: 0.17702578
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 0.7135863
+        inSlope: 0.35226342
+        outSlope: 0.35226348
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 0.7282609
+        inSlope: 0.52750117
+        outSlope: 0.5257129
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 0.74861103
+        inSlope: 0.6920098
+        outSlope: 0.6937981
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 0.7741158
+        inSlope: 0.83506113
+        outSlope: 0.83148485
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.8038027
+        inSlope: 0.9387732
+        outSlope: 0.9369851
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 0.8361568
+        inSlope: 0.9834767
+        outSlope: 0.98705256
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 0.8691032
+        inSlope: 0.96917117
+        outSlope: 0.9655953
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.9002402
+        inSlope: 0.87618834
+        outSlope: 0.87618834
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.927267
+        inSlope: 0.7241965
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.79289
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature/English_DragonLArmPalm_Armature/English_DragonLArmDigit61_Armature/English_DragonLArmDigit62_Armature/English_DragonLArmDigit63_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature/English_DragonLArmPalm_Armature/English_DragonLArmDigit61_Armature/English_DragonLArmDigit62_Armature/English_DragonLArmDigit63_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature/English_DragonLArmPalm_Armature/English_DragonLArmDigit61_Armature/English_DragonLArmDigit62_Armature/English_DragonLArmDigit63_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.023671407
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -0.026114795
+        inSlope: -0.073308975
+        outSlope: -0.073308975
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -0.033452667
+        inSlope: -0.22009215
+        outSlope: -0.22009215
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.1
+        value: -0.045646682
+        inSlope: -0.36585703
+        outSlope: -0.36585703
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -0.06252721
+        inSlope: -0.50646645
+        outSlope: -0.50646645
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -0.08378207
+        inSlope: -0.63751847
+        outSlope: -0.63751847
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: -0.10894164
+        inSlope: -0.7548623
+        outSlope: -0.7548623
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.23333333
+        value: -0.13733011
+        inSlope: -0.8517397
+        outSlope: -0.8517397
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.26666668
+        value: -0.16808729
+        inSlope: -0.92253095
+        outSlope: -0.92253095
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.3
+        value: -0.20021725
+        inSlope: -0.9639945
+        outSlope: -0.9639945
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.23257439
+        inSlope: -0.9708115
+        outSlope: -0.9708115
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.95920146
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 0.95343524
+        inSlope: -0.17300369
+        outSlope: -0.17300369
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 0.935946
+        inSlope: -0.52457273
+        outSlope: -0.52457273
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.1
+        value: 0.90653116
+        inSlope: -0.8825332
+        outSlope: -0.8825332
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 0.8652144
+        inSlope: -1.2396264
+        outSlope: -1.2396264
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 0.8123052
+        inSlope: -1.5869589
+        outSlope: -1.5869589
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.74845076
+        inSlope: -1.9158248
+        outSlope: -1.9158248
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 0.6747013
+        inSlope: -2.212706
+        outSlope: -2.212706
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 0.5925342
+        inSlope: -2.4645205
+        outSlope: -2.4645205
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.50380874
+        inSlope: -2.6620278
+        outSlope: -2.6620278
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.41071776
+        inSlope: -2.7930093
+        outSlope: -2.7930093
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.31020385
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -0.31260243
+        inSlope: -0.07196461
+        outSlope: -0.07196461
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -0.31984788
+        inSlope: -0.21732007
+        outSlope: -0.21732007
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.1
+        value: -0.33197418
+        inSlope: -0.36382526
+        outSlope: -0.36382526
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -0.34890684
+        inSlope: -0.5080308
+        outSlope: -0.5080308
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -0.37044388
+        inSlope: -0.645982
+        outSlope: -0.645982
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: -0.39623693
+        inSlope: -0.77386856
+        outSlope: -0.77386856
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.23333333
+        value: -0.42575574
+        inSlope: -0.88565314
+        outSlope: -0.88565314
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.26666668
+        value: -0.45829093
+        inSlope: -0.9758609
+        outSlope: -0.9758609
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.3
+        value: -0.49298483
+        inSlope: -1.0409203
+        outSlope: -1.0409203
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.52883774
+        inSlope: -1.075695
+        outSlope: -1.075695
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.048835874
+        inSlope: 0
+        outSlope: 0.02749264
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -0.04791461
+        inSlope: 0.055432316
+        outSlope: 0.05587935
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -0.045105077
+        inSlope: 0.11354684
+        outSlope: 0.11421741
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: -0.040308654
+        inSlope: 0.17546119
+        outSlope: 0.17434356
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -0.033418223
+        inSlope: 0.23938711
+        outSlope: 0.23938717
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -0.024335854
+        inSlope: 0.30532482
+        outSlope: 0.30554834
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: -0.013040386
+        inSlope: 0.37014487
+        outSlope: 0.37014487
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 0.00037338585
+        inSlope: 0.42982402
+        outSlope: 0.42937678
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 0.01560913
+        inSlope: 0.47676247
+        outSlope: 0.47631565
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.032141514
+        inSlope: 0.50425535
+        outSlope: 0.5051494
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.049242876
+        inSlope: 0.5092845
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.21357074
+        inSlope: 0
+        outSlope: -0.0062584872
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -0.2137793
+        inSlope: -0.01206994
+        outSlope: -0.013411044
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -0.21438967
+        inSlope: -0.023692844
+        outSlope: -0.023692848
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: -0.21534303
+        inSlope: -0.03308058
+        outSlope: -0.03263354
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -0.21651933
+        inSlope: -0.03665685
+        outSlope: -0.03755093
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -0.21772727
+        inSlope: -0.03397465
+        outSlope: -0.03397465
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: -0.21869467
+        inSlope: -0.022351744
+        outSlope: -0.021457674
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: -0.21908277
+        inSlope: 0
+        outSlope: 0.001341104
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: -0.21852633
+        inSlope: 0.033974633
+        outSlope: 0.03397465
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: -0.21671253
+        inSlope: 0.074654825
+        outSlope: 0.074654825
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.21347725
+        inSlope: 0.117123134
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.6777682
+        inSlope: 0
+        outSlope: -0.0911951
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 0.6747357
+        inSlope: -0.1823902
+        outSlope: -0.18417834
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 0.66542864
+        inSlope: -0.37550923
+        outSlope: -0.3808737
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 0.64933556
+        inSlope: -0.5936623
+        outSlope: -0.5882977
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 0.6257719
+        inSlope: -0.8279084
+        outSlope: -0.8279086
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 0.59392387
+        inSlope: -1.0836126
+        outSlope: -1.088977
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.55308414
+        inSlope: -1.358986
+        outSlope: -1.3625623
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 0.5028346
+        inSlope: -1.6397239
+        outSlope: -1.6397232
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 0.44346446
+        inSlope: -1.895427
+        outSlope: -1.8945338
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.3762565
+        inSlope: -2.0948055
+        outSlope: -2.0983818
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.30360746
+        inSlope: -2.2110345
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.70187813
+        inSlope: 0
+        outSlope: 0.08761882
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 0.7047938
+        inSlope: 0.17523764
+        outSlope: 0.17523764
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 0.7135877
+        inSlope: 0.35405156
+        outSlope: 0.35405162
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 0.7282623
+        inSlope: 0.53107744
+        outSlope: 0.52392477
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 0.7486068
+        inSlope: 0.6920098
+        outSlope: 0.69201
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 0.774117
+        inSlope: 0.833273
+        outSlope: 0.833273
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.80380386
+        inSlope: 0.9369851
+        outSlope: 0.93519694
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 0.83615786
+        inSlope: 0.98526484
+        outSlope: 0.9852644
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 0.8691041
+        inSlope: 0.96917117
+        outSlope: 0.9655953
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.9002409
+        inSlope: 0.87618834
+        outSlope: 0.87618834
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.92726755
+        inSlope: 0.7241965
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 3.34672
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit01_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.05754
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit01_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.05058
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit01_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.2832099
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit41_Armature/English_DragonRArmDigit42_Armature/English_DragonRArmDigit43_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0000004726
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit41_Armature/English_DragonRArmDigit42_Armature/English_DragonRArmDigit43_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.00000063379997
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit41_Armature/English_DragonRArmDigit42_Armature/English_DragonRArmDigit43_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.0000099
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit61_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.99999666
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit61_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.9999961
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit61_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.79332
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit61_Armature/English_DragonRArmDigit62_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit61_Armature/English_DragonRArmDigit62_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit61_Armature/English_DragonRArmDigit62_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.7929
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit61_Armature/English_DragonRArmDigit62_Armature/English_DragonRArmDigit63_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.0000000769
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit61_Armature/English_DragonRArmDigit62_Armature/English_DragonRArmDigit63_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0000007966
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature/English_DragonRArmPalm_Armature/English_DragonRArmDigit61_Armature/English_DragonRArmDigit62_Armature/English_DragonRArmDigit63_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -5.18406
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -5.18406
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -5.18406
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.1
+        value: -5.18406
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -5.18406
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -5.18406
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: -5.18406
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.23333333
+        value: -5.18406
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.26666668
+        value: -5.18406
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.3
+        value: -5.18406
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -5.18406
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonRLegPlatform_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -2.15157
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -2.15157
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -2.15157
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.1
+        value: -2.15157
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -2.15157
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -2.15157
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: -2.15157
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.23333333
+        value: -2.15157
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.26666668
+        value: -2.15157
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.3
+        value: -2.15157
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -2.15157
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonRLegPlatform_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 30.84018
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 30.831839
+        inSlope: -0.25025007
+        outSlope: -0.25025007
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 30.80678
+        inSlope: -0.75161207
+        outSlope: -0.75161207
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.1
+        value: 30.764929
+        inSlope: -1.2556568
+        outSlope: -1.2556568
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 30.7062
+        inSlope: -1.7620513
+        outSlope: -1.7620513
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 30.63053
+        inSlope: -2.2696538
+        outSlope: -2.2696538
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: 30.53789
+        inSlope: -2.779475
+        outSlope: -2.779475
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 30.428219
+        inSlope: -3.290449
+        outSlope: -3.290449
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 30.301498
+        inSlope: -3.8008535
+        outSlope: -3.8008535
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.3
+        value: 30.157719
+        inSlope: -4.313821
+        outSlope: -4.313821
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 29.99685
+        inSlope: -4.8265715
+        outSlope: -4.8265715
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonRLegPlatform_Armature
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Sketchfab_model/Root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Sketchfab_model/Root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Sketchfab_model/Root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -12.764765
+        inSlope: -0.00051503564
+        outSlope: -0.00051503564
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -12.764765
+        inSlope: -0.00051503564
+        outSlope: -0.00051503564
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -12.764764
+        inSlope: -0.0006006947
+        outSlope: -0.0006006947
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: -12.764765
+        inSlope: -0.00051503564
+        outSlope: -0.00051503564
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -12.764766
+        inSlope: -0.00042919634
+        outSlope: -0.00042919634
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -12.764765
+        inSlope: -0.0005148813
+        outSlope: -0.0005148813
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: -12.764765
+        inSlope: -0.0005150355
+        outSlope: -0.0005150355
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: -12.764765
+        inSlope: -0.00051503576
+        outSlope: -0.00051503576
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: -12.764765
+        inSlope: -0.0005148813
+        outSlope: -0.0005148813
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: -12.764765
+        inSlope: -0.0005150353
+        outSlope: -0.0005150353
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -12.764764
+        inSlope: -0.000600875
+        outSlope: -0.000600875
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 22.041239
+        inSlope: 0.00051503564
+        outSlope: 0.00051503564
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 22.041239
+        inSlope: 0.00051503564
+        outSlope: 0.00051503564
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 22.041239
+        inSlope: 0.00051488116
+        outSlope: 0.00051488116
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 22.04124
+        inSlope: 0.00034335707
+        outSlope: 0.00034335707
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 22.041237
+        inSlope: -0.00068671413
+        outSlope: -0.00068671413
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 22.041239
+        inSlope: 0.0005148813
+        outSlope: 0.0005148813
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 22.041239
+        inSlope: 0.0005150355
+        outSlope: 0.0005150355
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 22.041239
+        inSlope: 0.00051503576
+        outSlope: 0.00051503576
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 22.041239
+        inSlope: 0.0005148813
+        outSlope: 0.0005148813
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: 22.041239
+        inSlope: 0.0005150353
+        outSlope: 0.0005150353
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 22.04124
+        inSlope: 0.00034335715
+        outSlope: 0.00034335715
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 85.50198
+        inSlope: -14.822039
+        outSlope: -14.822039
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 85.00792
+        inSlope: -29.964087
+        outSlope: -29.964087
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 83.5041
+        inSlope: -60.921425
+        outSlope: -60.921425
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 80.946205
+        inSlope: -93.22626
+        outSlope: -93.22626
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 77.28884
+        inSlope: -126.698074
+        outSlope: -126.698074
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 72.49715
+        inSlope: -160.76515
+        outSlope: -160.76515
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 66.56675
+        inSlope: -194.16495
+        outSlope: -194.16495
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 59.54664
+        inSlope: -224.7513
+        outSlope: -224.7513
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 51.57065
+        inSlope: -249.8959
+        outSlope: -249.8959
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: 42.86939
+        inSlope: -266.81882
+        outSlope: -266.81882
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 33.763462
+        inSlope: -273.1492
+        outSlope: -273.1492
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonLArmCollarbone_Armature/English_DragonLArm1_Armature/English_DragonLArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 12.7647915
+        inSlope: -0.00051503564
+        outSlope: -0.00051503564
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 12.7647915
+        inSlope: -0.00051503564
+        outSlope: -0.00051503564
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 12.764788
+        inSlope: -0.00017162705
+        outSlope: -0.00017162705
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 12.764791
+        inSlope: -0.00042919634
+        outSlope: -0.00042919634
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 12.76479
+        inSlope: -0.00034335707
+        outSlope: -0.00034335707
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 12.764791
+        inSlope: -0.00042906773
+        outSlope: -0.00042906773
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 12.7647915
+        inSlope: -0.0005150355
+        outSlope: -0.0005150355
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 12.76479
+        inSlope: -0.00034335715
+        outSlope: -0.00034335715
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 12.7647915
+        inSlope: -0.0005148813
+        outSlope: -0.0005148813
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: 12.76479
+        inSlope: -0.00034335686
+        outSlope: -0.00034335686
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 12.76479
+        inSlope: -0.00034335715
+        outSlope: -0.00034335715
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -22.0413
+        inSlope: -0.00051503564
+        outSlope: -0.00051503564
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: -22.0413
+        inSlope: -0.00051503564
+        outSlope: -0.00051503564
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: -22.0413
+        inSlope: -0.00051488116
+        outSlope: -0.00051488116
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: -22.0413
+        inSlope: -0.00051503564
+        outSlope: -0.00051503564
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: -22.0413
+        inSlope: -0.00051503564
+        outSlope: -0.00051503564
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: -22.041298
+        inSlope: 0.00068650837
+        outSlope: 0.00068650837
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: -22.0413
+        inSlope: -0.0005150355
+        outSlope: -0.0005150355
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: -22.041298
+        inSlope: 0.0006867143
+        outSlope: 0.0006867143
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: -22.0413
+        inSlope: -0.0005148813
+        outSlope: -0.0005148813
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: -22.0413
+        inSlope: -0.0005150353
+        outSlope: -0.0005150353
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -22.041298
+        inSlope: 0.0006867143
+        outSlope: 0.0006867143
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 85.50172
+        inSlope: -14.822725
+        outSlope: -14.822725
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.033333335
+        value: 85.00765
+        inSlope: -29.964773
+        outSlope: -29.964773
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666667
+        value: 83.50382
+        inSlope: -60.921425
+        outSlope: -60.921425
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1
+        value: 80.94594
+        inSlope: -93.2132
+        outSlope: -93.2132
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.13333334
+        value: 77.28959
+        inSlope: -126.69945
+        outSlope: -126.69945
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 72.49688
+        inSlope: -160.77957
+        outSlope: -160.77957
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 66.56648
+        inSlope: -194.167
+        outSlope: -194.167
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.23333333
+        value: 59.54637
+        inSlope: -224.75061
+        outSlope: -224.75061
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.26666668
+        value: 51.57038
+        inSlope: -249.89796
+        outSlope: -249.89796
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: 42.86912
+        inSlope: -266.81815
+        outSlope: -266.81815
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 33.76319
+        inSlope: -273.13168
+        outSlope: -273.13168
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: Sketchfab_model/Root/Armature/Armature_rootJoint/English_DragonPelvis_Armature/English_DragonSpine1_Armature/English_DragonSpine2_Armature/English_DragonSpine3_Armature/English_DragonRibcage_Armature/English_DragonRArmCollarbone_Armature/English_DragonRArm1_Armature/English_DragonRArm2_Armature
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events: []

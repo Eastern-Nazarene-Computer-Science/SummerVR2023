@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/WeekTwo-5-25-23.unity
     guid: 2a3963a7524a0d54e9d772d62b07d1e3
+  - enabled: 1
+    path: Assets/Scenes/Paradise scene.unity
+    guid: 8a64f56c5750644c3ba9e2fc5f27b5d1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
