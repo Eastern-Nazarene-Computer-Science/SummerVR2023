@@ -7,6 +7,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 38113345892121308, guid: ee47d255efa08d444bcd3a7bc9aefe21,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebfe1d65f4a6df45aea7f15ffc9013e, type: 2}
+    - target: {fileID: 38113345892121310, guid: ee47d255efa08d444bcd3a7bc9aefe21,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 67650086817546126, guid: ee47d255efa08d444bcd3a7bc9aefe21,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebfe1d65f4a6df45aea7f15ffc9013e, type: 2}
+    - target: {fileID: 1773701735489183610, guid: ee47d255efa08d444bcd3a7bc9aefe21,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebfe1d65f4a6df45aea7f15ffc9013e, type: 2}
     - target: {fileID: 3828799740975008001, guid: ee47d255efa08d444bcd3a7bc9aefe21,
         type: 3}
       propertyPath: m_Name
@@ -92,6 +112,11 @@ PrefabInstance:
       propertyPath: bodySockets.Array.data[3].heightRatio
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4899645184580665208, guid: ee47d255efa08d444bcd3a7bc9aefe21,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebfe1d65f4a6df45aea7f15ffc9013e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee47d255efa08d444bcd3a7bc9aefe21, type: 3}
 --- !u!114 &500118158272176296
