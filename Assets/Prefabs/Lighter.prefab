@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4368744666386945897}
   - component: {fileID: 4368744666386945902}
   - component: {fileID: 4368744666386945896}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LighterFlame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.5849056, g: 0.5325552, b: 0.4160555, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 0
   m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 4368744666759886701}
   - component: {fileID: 4368744666759886698}
   - component: {fileID: 4368744666759886699}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lighter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -470,6 +470,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4368744666386945901}
     m_Modifications:
+    - target: {fileID: 3632033617890469132, guid: d36b0059bd89a1145bfad373a121e6cc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3632033618303325610, guid: d36b0059bd89a1145bfad373a121e6cc,
         type: 3}
       propertyPath: m_RootOrder
@@ -529,6 +534,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cartoon flame 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632033618303325611, guid: d36b0059bd89a1145bfad373a121e6cc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d36b0059bd89a1145bfad373a121e6cc, type: 3}
