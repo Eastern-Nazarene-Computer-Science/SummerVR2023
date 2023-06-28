@@ -18,7 +18,8 @@ public class FireDestroy : MonoBehaviour
         if (torch.GetComponent<FireLightable>().flameObj.activeSelf == true)
         {
             //Destroy(barrier);
-            transform.position = new Vector3(2, (float)1.25, 0) * Time.deltaTime;
+            Vector3 translation = new Vector3(2f, 0f, 0f) * Time.deltaTime;
+            transform.Translate(translation);
         }
     }
 }
