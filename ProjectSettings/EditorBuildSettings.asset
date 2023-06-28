@@ -9,20 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/ForestRoom.unity
     guid: 40379542a047b4cc6be78b5b9df15d1f
   - enabled: 1
-    path: Assets/Scenes/Room2(Book).unity
-    guid: c2ae39aed1686f245b30d6fa71e01c4d
-  - enabled: 0
-    path: Assets/Scenes/Create-with-VR-Starter-Scene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
-    path: Assets/Scenes/WeekTwo-5-25-23.unity
-    guid: 2a3963a7524a0d54e9d772d62b07d1e3
+    path: Assets/Scenes/DT books and bookshelves scene.unity
+    guid: 2b1c40bdb430bef4ebf413af1072f56d
   - enabled: 1
     path: Assets/Scenes/Tunnel Room.unity
     guid: 78a1106c4d8308e4b95369cf8274fe64
   - enabled: 1
     path: Assets/Scenes/MazeRoomDT.unity
     guid: eaaad8760fbe9274ca71393011d3c793
+  - enabled: 1
+    path: Assets/Scenes/The-Well.unity
+    guid: f50d2fe31540fa64291ff32b53513943
+  - enabled: 1
     path: Assets/Scenes/Paradise scene.unity
     guid: 8a64f56c5750644c3ba9e2fc5f27b5d1
   m_configObjects:
