@@ -23,7 +23,8 @@ public class BatAttackHandler : MonoBehaviour
         if (playerturna)
         {
            playerturna.enabled = false;
-        } else if (playerturnb)
+        } 
+        if (playerturnb)
         {
             playerturnb.enabled=false;
         }
@@ -54,7 +55,7 @@ public class BatAttackHandler : MonoBehaviour
         {
             playerturna.enabled = true;
         }
-        else if (playerturnb)
+        if (playerturnb)
         {
             playerturnb.enabled = true;
         }
