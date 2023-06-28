@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class ButtonScript : MonoBehaviour
+public class DeathRoomBlueButtonScript : MonoBehaviour
 {
     [SerializeField] private float threshold = 0.1f;
     [SerializeField] private float deadZone = 0.025f;
 
-    private bool _isPressed;
-    private Vector3 _startPos;
-    private ConfigurableJoint _joint;
+    public bool _isPressed;
+    public Vector3 _startPos;
+    public ConfigurableJoint _joint;
+    public bool Patterns;
+    public Animator BDoormoves1;
+    public Animator BDoormoves2;
 
     public UnityEvent onPressed, onReleased;
 
@@ -28,24 +31,41 @@ public class ButtonScript : MonoBehaviour
             Released();
     }
 
-    private float GetValue()
+    public float GetValue()
     {
         var value = Vector3.Distance(_startPos, transform.localPosition) / _joint.linearLimit.limit;
-    
+
         if (value < deadZone)
             value = 0;
         return Mathf.Clamp(value, -1f, 1f);
     }
 
 
-    private void Pressed()
+    public void Pressed()
     {
-        _isPressed = true;
-        onPressed.Invoke();
-        Debug.Log("Pressed");
+        // _isPressed = true;
+        //onPressed.Invoke();
+        // Debug.Log("Pressed");
+
+        if (Patterns == true)
+
+        {
+            Patterns = false;
+            BDoormoves1.SetInteger("stateChange", 1);
+            BDoormoves2.SetInteger("stateChange", 1);
+            Debug.Log("Nice, now try the other one");
+        }
+
+        else if (Patterns == false)
+        {
+            Patterns = true;
+            BDoormoves1.SetInteger("stateChange", 2);
+            BDoormoves2.SetInteger("stateChange", 2);
+            Debug.Log("You did it!");
+        }
     }
 
-    private void Released()
+    public void Released()
     {
         _isPressed = false;
         onReleased.Invoke();
