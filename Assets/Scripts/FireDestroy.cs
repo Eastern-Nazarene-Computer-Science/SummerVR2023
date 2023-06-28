@@ -17,7 +17,8 @@ public class FireDestroy : MonoBehaviour
         torch = other.gameObject;
         if (torch.GetComponent<FireLightable>().flameObj.activeSelf == true)
         {
-            Destroy(barrier);
+            //Destroy(barrier);
+            transform.position = new Vector3(2, (float)1.25, 0) * Time.deltaTime;
         }
     }
 }
