@@ -18,8 +18,7 @@ public class RigidFollowPlayer : MonoBehaviour
     {
         playerRB = gameObject.GetComponent<Rigidbody>();
         capsule = gameObject.GetComponent<CapsuleCollider>();
-        playerHeight = mainCamera.transform.position.y;
-        capsule.height = playerHeight;
+        playerHeight = mainCamera.transform.position.y - xrbruh.CameraFloorOffsetObject.transform.position.y;
         capsule.center = new Vector3(mainCamera.transform.localPosition.x, -playerHeight + 0.5f, mainCamera.transform.localPosition.z);
     }
 
