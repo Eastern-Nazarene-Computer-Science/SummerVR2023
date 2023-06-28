@@ -239,10 +239,30 @@ PrefabInstance:
       propertyPath: m_TrackingStateInput.m_Action.m_Name
       value: Tracking State Input
       objectReference: {fileID: 0}
+    - target: {fileID: 3982298399314165942, guid: 1b12f9036aa3c6f44a617d7586ecc247,
+        type: 3}
+      propertyPath: m_RightHandMoveAction.m_UseReference
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354633217682830216, guid: 1b12f9036aa3c6f44a617d7586ecc247,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6160404459919149113, guid: 1b12f9036aa3c6f44a617d7586ecc247,
         type: 3}
       propertyPath: m_System
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6160404459919149113, guid: 1b12f9036aa3c6f44a617d7586ecc247,
+        type: 3}
+      propertyPath: m_LeftHandSnapTurnAction.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6160404459919149113, guid: 1b12f9036aa3c6f44a617d7586ecc247,
+        type: 3}
+      propertyPath: m_RightHandSnapTurnAction.m_UseReference
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6490973624215975798, guid: 1b12f9036aa3c6f44a617d7586ecc247,
         type: 3}

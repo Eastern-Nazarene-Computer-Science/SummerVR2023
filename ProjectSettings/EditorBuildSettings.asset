@@ -23,6 +23,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MazeRoomDT.unity
     guid: eaaad8760fbe9274ca71393011d3c793
+    path: Assets/Scenes/Paradise scene.unity
+    guid: 8a64f56c5750644c3ba9e2fc5f27b5d1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}

@@ -10,12 +10,13 @@ public class GetThatKeyBack : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.GetComponent<FireLightable>() && other.gameObject.GetComponent<Light>().intensity > 0 && !other.gameObject.GetComponent<LightSwitch>()) // is it a torch and not a lighter
+        if (other.gameObject.GetComponent<FireLightable>() && other.gameObject.GetComponent<Light>().intensity > 0 && other.gameObject.TryGetComponent<LightSwitch>(out LightSwitch jacob) == false) // is it a torch and not a lighter
         {
             dakey.GetComponent<XRGrabInteractable>().enabled = true; // allow key to be pickup
             dakey.GetComponent<Rigidbody>().useGravity = true; // use gravity on key
             dakey.transform.SetParent(null, true); // move parent to scene
-            BAT.GetComponent<Animator>().SetInteger("batHit", 1); // transition bat from circling to escaping
+            dakey.GetComponent<BoxCollider>().enabled = true;
+            BAT.GetComponent<Animator>().SetBool("batHit", true); // transition bat from circling to escaping
         }
     }
 }

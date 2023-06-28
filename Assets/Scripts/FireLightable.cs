@@ -31,5 +31,19 @@ public class FireLightable : MonoBehaviour
         }
     }
 
+    public void LightFire() // light fire from script without collision
+    {
+        toLight = gameObject;
+        Light lightToLight = toLight.GetComponent<Light>();
+        flameObj.SetActive(true);
+        lightToLight.intensity = 1;
+    }
 
+    public void ExtFire() // extinguish fire from script without collision
+    {
+        toLight = gameObject;
+        Light lightToLight = toLight.GetComponent<Light>();
+        flameObj.SetActive(false);
+        lightToLight.intensity = 0;
+    }
 }

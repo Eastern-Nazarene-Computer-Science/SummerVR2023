@@ -6,21 +6,21 @@ public class RockBash : MonoBehaviour
 {
     public GameObject Dwayne; // the bashing rock
     public GameObject skullToBash;  // bashable item
-    public Vector3 primeBashingForce; // set to private after figuring this out
+    public float primeBashingForce; // set to private after figuring this out
 
     private bool CheckVelocity()
     {
-        Debug.Log("velocity checked");
-        Vector3 currentV = Dwayne.GetComponent<Rigidbody>().velocity;
-        if (currentV.x >= primeBashingForce.x && currentV.y >= primeBashingForce.y && currentV.z >= primeBashingForce.z)
+        float currentV = Dwayne.GetComponent<Rigidbody>().velocity.magnitude;
+        Debug.Log("velocity checked: " + Dwayne.GetComponent<Rigidbody>().velocity.magnitude);
+        if (currentV >= primeBashingForce)
             return true;
         else return false;
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("collision");
-        if (collision.gameObject == Dwayne && CheckVelocity() == true)
+        Debug.Log("rock collision");
+        if (collision.gameObject == skullToBash && CheckVelocity() == true)
         {
             Debug.Log("commence the bashing");
             Rigidbody skullRB = skullToBash.GetComponent<Rigidbody>();
